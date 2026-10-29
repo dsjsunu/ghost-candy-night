@@ -1,0 +1,3308 @@
+%YAML 1.1
+--- !Scene &1
+name: !<str> ""
+guid: {a: 7875085725817850609, b: 329766013828765107}
+editSceneGuid: {a: 0, b: 0}
+calibrateVer: !<str> V5
+entities:
+  - __class: Entity
+    name: !<str> 通用
+    guid: {a: 4928117014480352318, b: 6996018859973861761}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: EffectNode
+        name: !<str> ""
+        guid: {a: 5546573800274703417, b: 15156713711556757902}
+        enabled: true
+        algorithmInput: {localId: 1, path: share://input.texture}
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 8001
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: !<str> 幽灵控制器
+    guid: {a: 5174307121772393132, b: 1654294693036581555}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 4}
+      - __class: DynamicComponent
+        name: !<str> ""
+        guid: {a: 4797114655842795077, b: 3679621746663321235}
+        serializedProperty:
+          __class: ScriptSerializedProperty
+          name: !<str> ""
+          guid: {a: 5722843292228700683, b: 5084119063739039617}
+          properties:
+            __class: Map
+            failureTexture: {localId: 1, path: 4adbfbd4-d433-d6a6-9d75-74ae4b50ce6f--4adbfbd4-d433-d6a6-9d75-74ae4b50ce6f.png}
+            ghost: {localId: 11}
+            hud: {localId: 17}
+            hurt: {localId: 10}
+            panel: {localId: 18}
+            result: {localId: 19}
+            resultArt: {localId: 34}
+            reward: {localId: 7}
+            silk: {localId: 50}
+            spider: {localId: 20}
+            stageTwoScore: 100
+            successTexture: {localId: 1, path: 76e905d5-62ea-449c-789b-68e7391e7524--76e905d5-62ea-449c-789b-68e7391e7524.png}
+            template: {localId: 15}
+            textures:
+              - {localId: 1, path: bd0ba9b9-95c5-6943-adcc-ab48c6ebdf13--bd0ba9b9-95c5-6943-adcc-ab48c6ebdf13.png}
+            tutorial: {localId: 36}
+            verificationOutcome: 0
+            verificationScore: 0
+            verificationTime: 0
+            webTemplate: {localId: 21}
+        enabled: true
+        className: !<str> 72cd940f-37c0-852d-6aa4-8a45c7cbf3d1
+    layer: 0
+  - __class: Entity
+    name: !<str> 摄像机
+    guid: {a: 4697513437065071092, b: 14321668795657885612}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 5583750540785673234, b: 10690123758263846308}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: PERSPECTIVE
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        fovType:
+          __class: CameraFovType
+          value: CUSTOM
+        orthoScale: 1
+        fitMode:
+          __class: CameraFitMode
+          value: NONE
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: RENDERQUEUE_AND_DEPTH
+        rtBackupMode:
+          __class: CameraRTBackupMode
+          value: CAMERA_CHANGED
+    layer: 0
+  - __class: Entity
+    name: !<str> 2D 前景
+    guid: {a: 5602281436460937293, b: 11590967583014395561}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 12}
+      - __class: EffectNode
+        name: !<str> ""
+        guid: {a: 4814136646431453744, b: 15209876453207765922}
+        enabled: true
+        algorithmInput: {localId: 1, path: share://input.texture}
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 9001
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: !<str> 紫夜全屏
+    guid: {a: 5664690391670606142, b: 12203394214191696770}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 14}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 5444878073719777696, b: 18230393693416113571}
+        enabled: true
+        sortingOrder: 2
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 5d88cb25-a49e-6d5a-b221-373d38cf885b--5d88cb25-a49e-6d5a-b221-373d38cf885b.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fill
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+  - __class: Entity
+    name: !<str> 2D 摄像机
+    guid: {a: 4976513662184936023, b: 2952755336475211655}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 13}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 4796064918783304489, b: 8627711588296484765}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        fovType:
+          __class: CameraFovType
+          value: CUSTOM
+        orthoScale: 20
+        fitMode:
+          __class: CameraFitMode
+          value: NONE
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: STRICT_SORT_ORDER
+        rtBackupMode:
+          __class: CameraRTBackupMode
+          value: CAMERA_CHANGED
+    layer: 0
+  - __class: Entity
+    name: !<str> 幽灵
+    guid: {a: 5151339862428734135, b: 8105343609327615418}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 11}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 5214800059725019043, b: 6766320023467245235}
+        enabled: true
+        sortingOrder: 3
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 3ef6b2eb-f230-7ca5-e137-e4c449b7185b--3ef6b2eb-f230-7ca5-e137-e4c449b7185b.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fill
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+  - __class: Entity
+    name: !<str> 障碍源
+    guid: {a: 5129779447213417352, b: 16450189233225522621}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 15}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 5285940356353582980, b: 15622748223442511492}
+        enabled: true
+        sortingOrder: 4
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: bd0ba9b9-95c5-6943-adcc-ab48c6ebdf13--bd0ba9b9-95c5-6943-adcc-ab48c6ebdf13.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fill
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+  - __class: Entity
+    name: !<str> 信息板
+    guid: {a: 4882289767305938457, b: 13584750785877120407}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 16}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 4732958382121958169, b: 1666112066864616327}
+        enabled: false
+        sortingOrder: 5
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: a302123d-ed74-72c2-2f1e-32a1ed1714e6--a302123d-ed74-72c2-2f1e-32a1ed1714e6.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fill
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+  - __class: Entity
+    name: !<str> 游戏信息
+    guid: {a: 5093514113711409981, b: 7470479057821927604}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 17}
+      - __class: Text
+        name: !<str> ""
+        guid: {a: 5050821059118942656, b: 2328610568395486111}
+        serializedProperty:
+          __class: ScriptSerializedProperty
+          name: !<str> ""
+          guid: {a: 5233909810544826555, b: 11811852310387809955}
+          properties:
+            __class: Map
+            _arcAngle: 0
+            _autoFontSizeMax: 96
+            _autoFontSizeMin: 24
+            _bendType: 0
+            _bloomOption: 0
+            _currAnimationType: 0
+            _glowHAngle: 0
+            _glowVAngle: 0
+            _horizontalAlignment: 1
+            _inAnimationAssetID: !<str> ""
+            _inner_input: !<str> 生命 3/3    15秒    0分
+            _lineBreakType: 4
+            _loopAnimationAssetID: !<str> ""
+            _maxInputWords: 0
+            _outAnimationAssetID: !<str> ""
+            _tabType: 0
+            _textAdaptiveCanvasEnabled: false
+            _totalAnimationTime: 0
+            _userEditable: false
+            _verticalAlignment: 1
+            textLocale: 0
+        enabled: true
+        sortingOrder: 6
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        activeTextStyle: {localId: 22}
+        letters:
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5058239889037336541, b: 565945229352047782}
+            utf8: !<str> 生
+            initialPosition: {x: -2517.3, y: 10.79999}
+            position: {x: -2517.3, y: 10.79999}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5361159140894080515, b: 14190739449975805597}
+            utf8: !<str> 命
+            initialPosition: {x: -1912.5, y: 0.9000244}
+            position: {x: -1912.5, y: 0.9000244}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5125479323208963121, b: 3839422869551818375}
+            utf8: !<str> " "
+            initialPosition: {x: -1538.1, y: 0.9000244}
+            position: {x: -1538.1, y: 0.9000244}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4812227261451246075, b: 16524829214957129856}
+            utf8: !<str> 3
+            initialPosition: {x: -1293.9, y: -2.700012}
+            position: {x: -1293.9, y: -2.700012}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5092196763339244373, b: 13147622492500097469}
+            utf8: !<str> /
+            initialPosition: {x: -994.2002, y: 1.200012}
+            position: {x: -994.2002, y: 1.200012}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4935850193954474823, b: 1884007997865859970}
+            utf8: !<str> 3
+            initialPosition: {x: -694.5002, y: -2.700012}
+            position: {x: -694.5002, y: -2.700012}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5317142125101291394, b: 17120407262782175393}
+            utf8: !<str> " "
+            initialPosition: {x: -450.3003, y: 0.9000244}
+            position: {x: -450.3003, y: 0.9000244}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5552115442362654494, b: 2704730429733022379}
+            utf8: !<str> " "
+            initialPosition: {x: -300.3003, y: 0.9000244}
+            position: {x: -300.3003, y: 0.9000244}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5479082760094876159, b: 14643964940572726174}
+            utf8: !<str> " "
+            initialPosition: {x: -150.3003, y: 0.9000244}
+            position: {x: -150.3003, y: 0.9000244}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4805468368160335187, b: 11540901125249349535}
+            utf8: !<str> " "
+            initialPosition: {x: -0.300293, y: 0.9000244}
+            position: {x: -0.300293, y: 0.9000244}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5468592202281791138, b: 3928721444963422123}
+            utf8: !<str> 1
+            initialPosition: {x: 175.1997, y: 0.9000244}
+            position: {x: 175.1997, y: 0.9000244}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4883745344073591401, b: 14460436413074214058}
+            utf8: !<str> 5
+            initialPosition: {x: 492.8996, y: -2.700012}
+            position: {x: 492.8996, y: -2.700012}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5251454958773983581, b: 10340566837830154904}
+            utf8: !<str> 秒
+            initialPosition: {x: 959.6998, y: 0}
+            position: {x: 959.6998, y: 0}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5065718674722685300, b: 9488098964280171434}
+            utf8: !<str> " "
+            initialPosition: {x: 1337.1, y: 0.9000244}
+            position: {x: 1337.1, y: 0.9000244}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5037896698787337355, b: 4829948877844816056}
+            utf8: !<str> " "
+            initialPosition: {x: 1487.1, y: 0.9000244}
+            position: {x: 1487.1, y: 0.9000244}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5505321708081310010, b: 15941290822169535115}
+            utf8: !<str> " "
+            initialPosition: {x: 1637.1, y: 0.9000244}
+            position: {x: 1637.1, y: 0.9000244}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5707266384266177088, b: 12734250489841723061}
+            utf8: !<str> " "
+            initialPosition: {x: 1787.1, y: 0.9000244}
+            position: {x: 1787.1, y: 0.9000244}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4929613450101171411, b: 14689524559628817297}
+            utf8: !<str> 0
+            initialPosition: {x: 2037.6, y: 0.9000244}
+            position: {x: 2037.6, y: 0.9000244}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4686295382854466153, b: 15431566857525223597}
+            utf8: !<str> 分
+            initialPosition: {x: 2510.4, y: 3.300018}
+            position: {x: 2510.4, y: 3.300018}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 22}
+        str: !<str> 生命 3/3    15秒    0分
+        richStr: !<str> 生命 3/3    15秒    0分
+        typeSettingParam: {localId: 25}
+        canvas: {localId: 26}
+        globalBackground: {localId: 27}
+        textLocale:
+          __class: TextLocale
+          value: LTRLocale
+        textDirectionLevel:
+          __class: TextDirectionLevel
+          value: LTR
+        globalAlpha: 1
+        resolutionAdapt: true
+        outlineMaxWidth: 0.2000000029802322
+        fixFontSize: true
+        useOwnRenderer: true
+        bloomEnable: false
+        bloomPath: !<str> ""
+        bloomColorCustomized: false
+        bloomColor: {x: 1, y: 1, z: 1, w: 1}
+        bloomStrength: 1
+        bloomRange: 1
+        bloomDirX: 0.5
+        bloomDirY: 0.5
+        bloomBlurDegree: 1
+        bloomRtSize: {x: 1440, y: 2560}
+        bloomRtSizeCoeff: 0
+        bloomMaterialProperties:
+          __class: Map
+          blurscale: 1
+          blurscale1: 1
+          sizeScale: 2
+          u_Strength: 2
+          u_StrengthX: 1
+          u_StrengthY: 1
+          u_light: 1
+          v_bloomPara: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+          v_color: {x: 1, y: 1, z: 1, w: 1}
+        vectorBackgroundEnabled: true
+        compatConfigs:
+          __class: Map
+          EnableBloomOptimization: false
+    layer: 0
+  - __class: Entity
+    name: !<str> 结算板
+    guid: {a: 4960530224268297899, b: 15432173023926792372}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 18}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 4705859586929595649, b: 11424611870462273967}
+        enabled: false
+        sortingOrder: 7
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: a302123d-ed74-72c2-2f1e-32a1ed1714e6--a302123d-ed74-72c2-2f1e-32a1ed1714e6.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Stretch
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+  - __class: Entity
+    name: !<str> 结算文案
+    guid: {a: 5494353638123319191, b: 4527859623873313163}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 19}
+      - __class: Text
+        name: !<str> ""
+        guid: {a: 5668229879432290324, b: 476514900617977240}
+        serializedProperty:
+          __class: ScriptSerializedProperty
+          name: !<str> ""
+          guid: {a: 5272093594753430864, b: 3872310694362378396}
+          properties:
+            __class: Map
+            _arcAngle: 0
+            _autoFontSizeMax: 96
+            _autoFontSizeMin: 24
+            _bendType: 0
+            _bloomOption: 0
+            _currAnimationType: 0
+            _glowHAngle: 0
+            _glowVAngle: 0
+            _horizontalAlignment: 1
+            _inAnimationAssetID: !<str> ""
+            _inner_input: !<str> "幽灵糖果夜\n轻轻左右移动头部\n开拍挑战20秒 · 4颗心"
+            _lineBreakType: 4
+            _loopAnimationAssetID: !<str> ""
+            _maxInputWords: 0
+            _outAnimationAssetID: !<str> ""
+            _tabType: 0
+            _textAdaptiveCanvasEnabled: false
+            _totalAnimationTime: 0
+            _userEditable: false
+            _verticalAlignment: 1
+            textLocale: 0
+        enabled: true
+        sortingOrder: 8
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        activeTextStyle: {localId: 28}
+        letters:
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4618063834953880934, b: 675597076471346870}
+            utf8: !<str> 幽
+            initialPosition: {x: -1280.64, y: 655.9999}
+            position: {x: -1280.64, y: 655.9999}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5303126148386528475, b: 15069679101371243951}
+            utf8: !<str> 灵
+            initialPosition: {x: -639.9999, y: 636.7999}
+            position: {x: -639.9999, y: 636.7999}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5431334953449632273, b: 2269108305383454101}
+            utf8: !<str> 糖
+            initialPosition: {x: -5.759827, y: 649.6}
+            position: {x: -5.759827, y: 649.6}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4852556201540426751, b: 11024867098613111190}
+            utf8: !<str> 果
+            initialPosition: {x: 639.3602, y: 640.64}
+            position: {x: 639.3602, y: 640.64}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5369664827567132168, b: 7129335267459244944}
+            utf8: !<str> 夜
+            initialPosition: {x: 1276.16, y: 648.3199}
+            position: {x: 1276.16, y: 648.3199}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5243894822155472369, b: 17680009220525314701}
+            utf8: !<str> "\n"
+            initialPosition: {x: 1472, y: 745.6}
+            position: {x: 1472, y: 745.6}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5239786189369703883, b: 10182190593348712123}
+            utf8: !<str> 轻
+            initialPosition: {x: -2242.88, y: 8.320068}
+            position: {x: -2242.88, y: 8.320068}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4844129832509108901, b: 17934293122324957082}
+            utf8: !<str> 轻
+            initialPosition: {x: -1602.88, y: 8.320068}
+            position: {x: -1602.88, y: 8.320068}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5157837151872945305, b: 7323110903295062718}
+            utf8: !<str> 左
+            initialPosition: {x: -962.8801, y: 19.20001}
+            position: {x: -962.8801, y: 19.20001}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5625839153148244955, b: 5412760997942898870}
+            utf8: !<str> 右
+            initialPosition: {x: -322.8799, y: 16.00003}
+            position: {x: -322.8799, y: 16.00003}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5543782906988293917, b: 12243668456603186358}
+            utf8: !<str> 移
+            initialPosition: {x: 316.1599, y: 8.320038}
+            position: {x: 316.1599, y: 8.320038}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4676989778913421120, b: 5454883491402921371}
+            utf8: !<str> 动
+            initialPosition: {x: 946.5601, y: 9.600037}
+            position: {x: 946.5601, y: 9.600037}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4618224836907071116, b: 14297279211365812642}
+            utf8: !<str> 头
+            initialPosition: {x: 1601.28, y: 9.600037}
+            position: {x: 1601.28, y: 9.600037}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4878132707617200886, b: 7970691295085879734}
+            utf8: !<str> 部
+            initialPosition: {x: 2233.28, y: 9.600037}
+            position: {x: 2233.28, y: 9.600037}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4818372669047000241, b: 17270294710874622613}
+            utf8: !<str> "\n"
+            initialPosition: {x: 2432, y: 105.6}
+            position: {x: 2432, y: 105.6}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5064757187347814176, b: 17199651857321468089}
+            utf8: !<str> 开
+            initialPosition: {x: -2707.84, y: -653.1199}
+            position: {x: -2707.84, y: -653.1199}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5425631363580333442, b: 5418438318514517388}
+            utf8: !<str> 拍
+            initialPosition: {x: -2078.72, y: -628.48}
+            position: {x: -2078.72, y: -628.48}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4632968661718271050, b: 4301691499925161906}
+            utf8: !<str> 挑
+            initialPosition: {x: -1428.16, y: -633.5999}
+            position: {x: -1428.16, y: -633.5999}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5730581284970597424, b: 10211818409462623374}
+            utf8: !<str> 战
+            initialPosition: {x: -776.3199, y: -640}
+            position: {x: -776.3199, y: -640}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4762114920715339026, b: 4953822630304032406}
+            utf8: !<str> 2
+            initialPosition: {x: -286.72, y: -626.56}
+            position: {x: -286.72, y: -626.56}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4804402494256195611, b: 5193224666317801652}
+            utf8: !<str> 0
+            initialPosition: {x: 80.95953, y: -630.4}
+            position: {x: 80.95953, y: -630.4}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4850417826281042115, b: 14922993909035150464}
+            utf8: !<str> 秒
+            initialPosition: {x: 585.5996, y: -631.36}
+            position: {x: 585.5996, y: -631.36}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4711959970680553787, b: 16550138234509580706}
+            utf8: !<str> " "
+            initialPosition: {x: 988.1597, y: -630.4}
+            position: {x: 988.1597, y: -630.4}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5636464183420195566, b: 7363780855866270109}
+            utf8: !<str> ·
+            initialPosition: {x: 1147.2, y: -630.4}
+            position: {x: 1147.2, y: -630.4}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5226478716624760320, b: 770796157111514019}
+            utf8: !<str> " "
+            initialPosition: {x: 1306.24, y: -630.4}
+            position: {x: 1306.24, y: -630.4}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4895383689642176527, b: 2306681497444171189}
+            utf8: !<str> 4
+            initialPosition: {x: 1566.72, y: -630.4}
+            position: {x: 1566.72, y: -630.4}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4821885890433601491, b: 16250649450583383974}
+            utf8: !<str> 颗
+            initialPosition: {x: 2070.08, y: -642.2399}
+            position: {x: 2070.08, y: -642.2399}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5615150660733880610, b: 8691771535957602443}
+            utf8: !<str> 心
+            initialPosition: {x: 2725.439, y: -626.2399}
+            position: {x: 2725.439, y: -626.2399}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 28}
+        str: !<str> "幽灵糖果夜\n轻轻左右移动头部\n开拍挑战20秒 · 4颗心"
+        richStr: !<str> "幽灵糖果夜\n轻轻左右移动头部\n开拍挑战20秒 · 4颗心"
+        typeSettingParam: {localId: 31}
+        canvas: {localId: 32}
+        globalBackground: {localId: 33}
+        textLocale:
+          __class: TextLocale
+          value: LTRLocale
+        textDirectionLevel:
+          __class: TextDirectionLevel
+          value: LTR
+        globalAlpha: 1
+        resolutionAdapt: true
+        outlineMaxWidth: 0.2000000029802322
+        fixFontSize: true
+        useOwnRenderer: true
+        bloomEnable: false
+        bloomPath: !<str> ""
+        bloomColorCustomized: false
+        bloomColor: {x: 1, y: 1, z: 1, w: 1}
+        bloomStrength: 1
+        bloomRange: 1
+        bloomDirX: 0.5
+        bloomDirY: 0.5
+        bloomBlurDegree: 1
+        bloomRtSize: {x: 1440, y: 2560}
+        bloomRtSizeCoeff: 0
+        bloomMaterialProperties:
+          __class: Map
+          blurscale: 1
+          blurscale1: 1
+          sizeScale: 2
+          u_Strength: 2
+          u_StrengthX: 1
+          u_StrengthY: 1
+          u_light: 1
+          v_bloomPara: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+          v_color: {x: 1, y: 1, z: 1, w: 1}
+        vectorBackgroundEnabled: true
+        compatConfigs:
+          __class: Map
+          EnableBloomOptimization: false
+    layer: 0
+  - __class: Entity
+    name: !<str> 音乐
+    guid: {a: 5061487999716007365, b: 12813986288041901714}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 9}
+      - __class: EffectNode
+        name: !<str> ""
+        guid: {a: 4961780127274867515, b: 14062377614061711233}
+        enabled: true
+        algorithmInput: {localId: 1, path: share://input.texture}
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 9201
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: !<str> 2D 摄像机
+    guid: {a: 4905802175296071460, b: 4240937192789386628}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 8}
+      - __class: Camera
+        name: !<str> ""
+        guid: {a: 5691783194013351573, b: 1314310402438191281}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        fovType:
+          __class: CameraFovType
+          value: CUSTOM
+        orthoScale: 20
+        fitMode:
+          __class: CameraFitMode
+          value: FILL
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+        sortMethod:
+          __class: CameraSortMethod
+          value: RENDERQUEUE_AND_DEPTH
+        rtBackupMode:
+          __class: CameraRTBackupMode
+          value: CAMERA_CHANGED
+    layer: 0
+  - __class: Entity
+    name: !<str> 得分音
+    guid: {a: 4669148652659469846, b: 10870415157815353728}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 7}
+      - __class: DynamicComponent
+        name: !<str> AudioComponent
+        guid: {a: 4926594706444201385, b: 14917807667062776976}
+        serializedProperty:
+          __class: ScriptSerializedProperty
+          name: !<str> ""
+          guid: {a: 5558642024308234825, b: 2876336721331752332}
+          properties:
+            __class: Map
+            audioType: !<str> Bgm
+            autoPlay: false
+            enableVEEditControlMusic: true
+            isMobilePreview: false
+            playMode: !<str> Once
+            resourcePath: !<str> audio/15dbe496-a59b-5fcf-eb8a-69e55db04630.mp3
+            serializedLoopCount: 1
+            serializedVolume: 65
+        enabled: true
+        className: !<str> AudioComponent
+    layer: 0
+  - __class: Entity
+    name: !<str> 受击音
+    guid: {a: 5025514137206687932, b: 5823957413713062315}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 10}
+      - __class: DynamicComponent
+        name: !<str> AudioComponent
+        guid: {a: 5380747211731918180, b: 5057024346087308734}
+        serializedProperty:
+          __class: ScriptSerializedProperty
+          name: !<str> ""
+          guid: {a: 5013666181695159649, b: 12080304699311315646}
+          properties:
+            __class: Map
+            audioType: !<str> Bgm
+            autoPlay: false
+            enableVEEditControlMusic: true
+            isMobilePreview: false
+            playMode: !<str> Once
+            resourcePath: !<str> audio/8f605284-f966-b706-a4c9-ad53a94fe55a.mp3
+            serializedLoopCount: 1
+            serializedVolume: 65
+        enabled: true
+        className: !<str> AudioComponent
+    layer: 0
+  - __class: Entity
+    name: !<str> 3D 跟踪头模
+    guid: {a: 5518090457728783995, b: 16767096210610625164}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 5}
+      - __class: DynamicComponent
+        name: !<str> FaceBinding
+        guid: {a: 5602344934592899151, b: 15810790714664847527}
+        serializedProperty:
+          __class: ScriptSerializedProperty
+          name: !<str> ""
+          guid: {a: 5668205522503314318, b: 13597180781582007431}
+          properties:
+            __class: Map
+            algorithmNode: !<str> facefitting_3d_0
+            algorithmType: 10
+            anchorType: 0
+            customAnchorPoint: {x: 0, y: 0, z: 0}
+            enableCustomBindingInput: false
+            faceFittingFOV: 60
+            faceIndex: 0
+            graphName: !<str> AlSubGraph_68077bf07b584669fb0d4faa
+        enabled: true
+        className: !<str> FaceBinding
+    layer: 0
+  - __class: Entity
+    name: !<str> 隐藏人脸检测
+    guid: {a: 5192788556533154034, b: 13384500166214542224}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 6}
+      - __class: MeshRenderer
+        name: !<str> ""
+        guid: {a: 4997611595250016350, b: 6921552360139228091}
+        enabled: false
+        sharedMaterials:
+          - {localId: 1, path: 7cf194b5-0c00-8d77-d267-9ff942577df3--7cf194b5-0c00-8d77-d267-9ff942577df3.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: false
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: custom://50557366-3bdc-5faf-0b4a-df43a36336de}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: !<str> 射网蜘蛛
+    guid: {a: 5109654980261586829, b: 16751381869050967989}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 20}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 5503810357069907382, b: 13377496850370346151}
+        enabled: true
+        sortingOrder: 9
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 01495144-672b-cd67-22d8-5b36186ea0a3--01495144-672b-cd67-22d8-5b36186ea0a3.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fill
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+  - __class: Entity
+    name: !<str> 蛛网源
+    guid: {a: 5651041200350356105, b: 12916700625300986752}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 21}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 5373593790235038468, b: 15817021175869478814}
+        enabled: true
+        sortingOrder: 10
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: ae997ce5-82c6-029b-6016-d72fc6d0b333--ae997ce5-82c6-029b-6016-d72fc6d0b333.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fill
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+  - __class: Entity
+    name: !<str> 轻移头教程板
+    guid: {a: 4942036566982080357, b: 6514238552867094153}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 35}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 5091261724349039699, b: 9264393949624724383}
+        enabled: false
+        sortingOrder: 12
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: a302123d-ed74-72c2-2f1e-32a1ed1714e6--a302123d-ed74-72c2-2f1e-32a1ed1714e6.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Stretch
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+  - __class: Entity
+    name: !<str> 轻移头教程
+    guid: {a: 5285306939070385295, b: 16135953650685989003}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 36}
+      - __class: Text
+        name: !<str> ""
+        guid: {a: 5214449355650173952, b: 11405882048567467430}
+        serializedProperty:
+          __class: ScriptSerializedProperty
+          name: !<str> ""
+          guid: {a: 5326216832387742951, b: 5844519972873268869}
+          properties:
+            __class: Map
+            _arcAngle: 0
+            _autoFontSizeMax: 96
+            _autoFontSizeMin: 24
+            _bendType: 0
+            _bloomOption: 0
+            _currAnimationType: 0
+            _glowHAngle: 0
+            _glowVAngle: 0
+            _horizontalAlignment: 1
+            _inAnimationAssetID: !<str> ""
+            _inner_input: !<str> ← 左右翻转手机，躲开南瓜 →
+            _lineBreakType: 4
+            _loopAnimationAssetID: !<str> ""
+            _maxInputWords: 50
+            _outAnimationAssetID: !<str> ""
+            _tabType: 0
+            _textAdaptiveCanvasEnabled: false
+            _totalAnimationTime: 0
+            _userEditable: false
+            _verticalAlignment: 1
+            textLocale: 0
+        enabled: true
+        sortingOrder: 13
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        activeTextStyle: {localId: 37}
+        letters:
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4710234003553325069, b: 4574237112482751388}
+            utf8: !<str> ←
+            initialPosition: {x: -3500.28, y: 14.56}
+            position: {x: -3500.28, y: 14.56}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5594938159499415964, b: 4736935754915176380}
+            utf8: !<str> " "
+            initialPosition: {x: -3150, y: 13.44}
+            position: {x: -3150, y: 13.44}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5701886652676088476, b: 10398923082250041728}
+            utf8: !<str> 左
+            initialPosition: {x: -2802.52, y: 21.83997}
+            position: {x: -2802.52, y: 21.83997}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5572053214378668890, b: 454108202072753059}
+            utf8: !<str> 右
+            initialPosition: {x: -2242.52, y: 19.04001}
+            position: {x: -2242.52, y: 19.04001}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4846219257803569527, b: 1044860827155786687}
+            utf8: !<str> 翻
+            initialPosition: {x: -1689.24, y: 7.839966}
+            position: {x: -1689.24, y: 7.839966}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4877004608083251939, b: 9791480265805366176}
+            utf8: !<str> 转
+            initialPosition: {x: -1122.24, y: 8.680023}
+            position: {x: -1122.24, y: 8.680023}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4908371035308453426, b: 16052220684315982520}
+            utf8: !<str> 手
+            initialPosition: {x: -556.36, y: 10.92001}
+            position: {x: -556.36, y: 10.92001}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4714159295765043065, b: 15982900792745862040}
+            utf8: !<str> 机
+            initialPosition: {x: 0.8397827, y: 13.44}
+            position: {x: 0.8397827, y: 13.44}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4812561192859293560, b: 2974910023553671097}
+            utf8: !<str> ，
+            initialPosition: {x: 420.0001, y: -190.4}
+            position: {x: 420.0001, y: -190.4}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5143934715621460789, b: 6570079756109555903}
+            utf8: !<str> 躲
+            initialPosition: {x: 1121.68, y: 12.88}
+            position: {x: 1121.68, y: 12.88}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5294732878686680993, b: 13754246731662544311}
+            utf8: !<str> 开
+            initialPosition: {x: 1679.44, y: -6.440002}
+            position: {x: 1679.44, y: -6.440002}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5231250853665967147, b: 448133866109430145}
+            utf8: !<str> 南
+            initialPosition: {x: 2239.72, y: 13.44}
+            position: {x: 2239.72, y: 13.44}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5094631784413177506, b: 8164420208831789966}
+            utf8: !<str> 瓜
+            initialPosition: {x: 2801.12, y: 9.23999}
+            position: {x: 2801.12, y: 9.23999}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5451946153576427158, b: 7629917878749733295}
+            utf8: !<str> " "
+            initialPosition: {x: 3150, y: 13.44}
+            position: {x: 3150, y: 13.44}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 4973319831033086387, b: 523254414666552207}
+            utf8: !<str> →
+            initialPosition: {x: 3499.72, y: 14.56}
+            position: {x: 3499.72, y: 14.56}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 37}
+        str: !<str> ← 左右翻转手机，躲开南瓜 →
+        richStr: !<str> ← 左右翻转手机，躲开南瓜 →
+        typeSettingParam: {localId: 40}
+        canvas: {localId: 41}
+        globalBackground: {localId: 42}
+        textLocale:
+          __class: TextLocale
+          value: LTRLocale
+        textDirectionLevel:
+          __class: TextDirectionLevel
+          value: LTR
+        globalAlpha: 1
+        resolutionAdapt: true
+        outlineMaxWidth: 0.2000000029802322
+        fixFontSize: true
+        useOwnRenderer: true
+        bloomEnable: false
+        bloomPath: !<str> ""
+        bloomColorCustomized: false
+        bloomColor: {x: 1, y: 1, z: 1, w: 1}
+        bloomStrength: 1
+        bloomRange: 1
+        bloomDirX: 0.5
+        bloomDirY: 0.5
+        bloomBlurDegree: 1
+        bloomRtSize: {x: 1440, y: 2560}
+        bloomRtSizeCoeff: 0
+        bloomMaterialProperties:
+          __class: Map
+          blurscale: 1
+          blurscale1: 1
+          sizeScale: 2
+          u_Strength: 2
+          u_StrengthX: 1
+          u_StrengthY: 1
+          u_light: 1
+          v_bloomPara: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+          v_color: {x: 1, y: 1, z: 1, w: 1}
+        vectorBackgroundEnabled: true
+        compatConfigs:
+          __class: Map
+          EnableBloomOptimization: false
+    layer: 0
+  - __class: Entity
+    name: !<str> 胜负变身插画
+    guid: {a: 5031667528743611590, b: 3040871752815841942}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 34}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 4684675666191295027, b: 12928733390039057075}
+        enabled: true
+        sortingOrder: 14
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 3ef6b2eb-f230-7ca5-e137-e4c449b7185b--3ef6b2eb-f230-7ca5-e137-e4c449b7185b.png}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+  - __class: Entity
+    name: !<str> 蜘蛛垂降丝线
+    guid: {a: 4783857404272639544, b: 5841426940628426402}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 43}
+      - __class: Text
+        name: !<str> ""
+        guid: {a: 4810702881695156718, b: 10709517465823261585}
+        serializedProperty:
+          __class: ScriptSerializedProperty
+          name: !<str> ""
+          guid: {a: 5110396313947618601, b: 11088201554627147700}
+          properties:
+            __class: Map
+            _arcAngle: 0
+            _autoFontSizeMax: 96
+            _autoFontSizeMin: 24
+            _bendType: 0
+            _bloomOption: 0
+            _currAnimationType: 0
+            _glowHAngle: 0
+            _glowVAngle: 0
+            _horizontalAlignment: 1
+            _inAnimationAssetID: !<str> ""
+            _inner_input: !<str> ┃
+            _lineBreakType: 2
+            _loopAnimationAssetID: !<str> ""
+            _maxInputWords: 50
+            _outAnimationAssetID: !<str> ""
+            _tabType: 0
+            _textAdaptiveCanvasEnabled: false
+            _totalAnimationTime: 0
+            _userEditable: false
+            _verticalAlignment: 1
+            textLocale: 0
+        enabled: true
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        activeTextStyle: {localId: 44}
+        letters:
+          - __class: Letter
+            name: !<str> ""
+            guid: {a: 5148300551290356067, b: 14714099347579735176}
+            utf8: !<str> ┃
+            initialPosition: {x: -2.508003, y: 0}
+            position: {x: -2.508003, y: 0}
+            rotate: {x: 0, y: 0, z: 0}
+            scale: {x: 1, y: 1}
+            anchor: {x: 0, y: 0}
+            extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+            instanceColor: {r: 1, g: 1, b: 1, a: 1}
+            letterStyle: {localId: 44}
+        str: !<str> ┃
+        richStr: !<str> ┃
+        typeSettingParam: {localId: 47}
+        canvas: {localId: 48}
+        globalBackground: {localId: 49}
+        textLocale:
+          __class: TextLocale
+          value: LTRLocale
+        textDirectionLevel:
+          __class: TextDirectionLevel
+          value: LTR
+        globalAlpha: 1
+        resolutionAdapt: true
+        outlineMaxWidth: 0.2000000029802322
+        fixFontSize: true
+        useOwnRenderer: true
+        bloomEnable: false
+        bloomPath: !<str> ""
+        bloomColorCustomized: false
+        bloomColor: {x: 1, y: 1, z: 1, w: 1}
+        bloomStrength: 1
+        bloomRange: 1
+        bloomDirX: 0.5
+        bloomDirY: 0.5
+        bloomBlurDegree: 1
+        bloomRtSize: {x: 1440, y: 2560}
+        bloomRtSizeCoeff: 0
+        bloomMaterialProperties:
+          __class: Map
+          blurscale: 1
+          blurscale1: 1
+          sizeScale: 2
+          u_Strength: 2
+          u_StrengthX: 1
+          u_StrengthY: 1
+          u_light: 1
+          v_bloomPara: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+          v_color: {x: 1, y: 1, z: 1, w: 1}
+        vectorBackgroundEnabled: true
+        compatConfigs:
+          __class: Map
+          EnableBloomOptimization: false
+    layer: 0
+  - __class: Entity
+    name: !<str> 连续悬挂蛛丝
+    guid: {a: 5623194095263478253, b: 2905878094933385121}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 50}
+      - __class: ImageRenderer
+        name: !<str> ""
+        guid: {a: 5706823830310475899, b: 13564183795658107305}
+        enabled: true
+        sortingOrder: 11
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: 00000000-0000-0000-0000-0000000000c0--00000000-0000-0000-0000-0000000000c0.png}
+        opacity: 1
+        color: {r: 0.92, g: 0.89, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Stretch
+        atlasIndex: 0
+        horizontalAlignment:
+          __class: LinearAlignment
+          value: Center
+        verticalAlignment:
+          __class: LinearAlignment
+          value: Center
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+        batchingEnabled: false
+        reservedField: {x: -1, y: -1, z: -1, w: -1}
+    layer: 0
+visible: true
+config:
+  __class: Map
+  RTInputDeferredCopy: true
+msaa:
+  __class: MSAAMode
+  value: _4X
+jsScriptSystems:
+  - !<str> js/AmazingProRuntime.js
+  - !<str> js/Graph/GraphSystem.js
+  - !<str> js/IEJsEntrySystemScript.js
+  - !<str> js/JSAssetSystem.js
+  - !<str> js/AmazingProEditor.js
+  - !<str> js/IEJsEntrySystemScript.js
+enableMultiTouch: false
+enableLightMultiPass: false
+pixelLightCount: 4
+resourceRendererType:
+  __class: RendererType
+  value: Auto
+--- !Transform &2
+name: !<str> ""
+guid: {a: 5633163887718231934, b: 12353880786698203810}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 3}
+  - {localId: 4}
+  - {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: !<str> ""
+guid: {a: 4681107725851976986, b: 5624198926658915468}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &4
+name: !<str> ""
+guid: {a: 4757356788871717901, b: 17340530565439455662}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &5
+name: !<str> ""
+guid: {a: 5035903473221739923, b: 9005623902976138644}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+children:
+  - {localId: 6}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &6
+name: !<str> ""
+guid: {a: 5320163897745733646, b: 4306783390649865142}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &7
+name: !<str> ""
+guid: {a: 5231210856862191215, b: 4813369234445929128}
+enabled: true
+localPosition: {x: 0, y: 0, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &8
+name: !<str> ""
+guid: {a: 5568594147918116848, b: 14486651005006518696}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+children:
+  - {localId: 7}
+  - {localId: 10}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: !<str> ""
+guid: {a: 5608140789233474219, b: 10084845710114850444}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &10
+name: !<str> ""
+guid: {a: 4804105571298571948, b: 2405921823167775421}
+enabled: true
+localPosition: {x: 0, y: 0, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &11
+name: !<str> ""
+guid: {a: 5116371883674872822, b: 10704187168737190326}
+enabled: true
+localPosition: {x: 0, y: -9.375, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: -300}
+sizeDelta: {x: 170, y: 170}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !Transform &12
+name: !<str> ""
+guid: {a: 4683679125346165012, b: 15604108587032338577}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 43}
+  - {localId: 13}
+  - {localId: 14}
+  - {localId: 11}
+  - {localId: 15}
+  - {localId: 16}
+  - {localId: 18}
+  - {localId: 20}
+  - {localId: 21}
+  - {localId: 50}
+  - {localId: 35}
+  - {localId: 34}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: !<str> ""
+guid: {a: 4874333163551005203, b: 2267719725407061380}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &14
+name: !<str> ""
+guid: {a: 4624735252081837111, b: 6324091363861078707}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &15
+name: !<str> ""
+guid: {a: 5458033524458404039, b: 9990276175253680032}
+enabled: true
+localPosition: {x: 0, y: 25, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 800}
+sizeDelta: {x: 90, y: 90}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &16
+name: !<str> ""
+guid: {a: 5586876607947361828, b: 15926778958318704036}
+enabled: true
+localPosition: {x: -1.25, y: 14.53125, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+children:
+  - {localId: 17}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: -40, y: 465}
+sizeDelta: {x: 560, y: 85}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &17
+name: !<str> ""
+guid: {a: 5024982542478787490, b: 4534419457784941998}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 16}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 560, y: 85}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: true
+--- !ScreenTransform &18
+name: !<str> ""
+guid: {a: 4780218268360344057, b: 3127684643053041072}
+enabled: true
+localPosition: {x: -1.25, y: 5.46875, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+children:
+  - {localId: 19}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: -40, y: 175}
+sizeDelta: {x: 590, y: 230}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &19
+name: !<str> ""
+guid: {a: 5576960959409503044, b: 13682625335572348808}
+enabled: true
+localPosition: {x: 0, y: 0.46875, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 18}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 15}
+sizeDelta: {x: 510, y: 145}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: true
+--- !ScreenTransform &20
+name: !<str> ""
+guid: {a: 4713814004507517866, b: 3441134390586623363}
+enabled: true
+localPosition: {x: -7.8125, y: 5.625, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: -250, y: 180}
+sizeDelta: {x: 150, y: 150}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &21
+name: !<str> ""
+guid: {a: 5707689394379571719, b: 18358464153920528557}
+enabled: true
+localPosition: {x: 0, y: 25, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 800}
+sizeDelta: {x: 95, y: 95}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !LetterStyle &22
+name: !<str> ""
+guid: {a: 4763388043442358061, b: 2514679333389868441}
+version: 101
+fontId: !<str> ""
+fontfamily: !<str> font/douyinti.otf
+fontSize: 48
+fontPixelSize: 30
+fontStyle:
+  __class: FontStyle
+  value: BOLD
+italicAngle: 10
+boldValue: 0.00800000037997961
+fontDecoration:
+  __class: FontDecorationType
+  value: NONE
+decorationWidth: 0.03999999910593033
+decorationOffset: 0.1500000059604645
+fill: {localId: 23}
+effectStyleId: !<str> ""
+effectStylePath: !<str> ""
+effectStyleParams: !<str> ""
+innerShadows:
+  - {localId: 24}
+letterBgColorRGBA: {r: 0, g: 0, b: 0, a: 1}
+letterBgAlpha: 0
+selected: false
+--- !LetterStyleLayer &23
+name: !<str> ""
+guid: {a: 5568091485468645330, b: 376019708872050868}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 5425910149219503633, b: 3371665718991093161}
+  properties:
+    __class: Map
+    gradientColor1: {r: 1, g: 1, b: 1, a: 1}
+    gradientColor2: {r: 1, g: 1, b: 1, a: 1}
+    gradientColor3: {r: 1, g: 1, b: 1, a: 1}
+type:
+  __class: LetterStyleLayerType
+  value: FILL
+enable: true
+alpha: 1
+renderType:
+  __class: LetterStyleLayerRenderType
+  value: SOLID
+color: {r: 1, g: 0.96, b: 0.85, a: 1}
+gradientColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientMode:
+  __class: LetterStyleLayerGradientMode
+  value: ALL
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureRange: -1
+textureBlend:
+  __class: LetterStyleLayerTextureBlend
+  value: NONE
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+textureNoPremultiply: true
+strokeWidth: 0.2000000029802322
+shadowDistance: 0
+shadowAngle: -45
+shadowFeather: -1
+shadowDiffuse: -1
+--- !LetterStyleLayer &24
+name: !<str> ""
+guid: {a: 4737754262320432368, b: 5115949680884007086}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 5352934187195014804, b: 2789417757873679528}
+  properties:
+    __class: Map
+    gradientColor1: {r: 0, g: 0, b: 0, a: 1}
+    gradientColor2: {r: 0, g: 0, b: 0, a: 1}
+    gradientColor3: {r: 0, g: 0, b: 0, a: 1}
+type:
+  __class: LetterStyleLayerType
+  value: INNER_SHADOW
+enable: false
+alpha: 0.8999999761581421
+renderType:
+  __class: LetterStyleLayerRenderType
+  value: SOLID
+color: {r: 0, g: 0, b: 0, a: 1}
+gradientColors:
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientMode:
+  __class: LetterStyleLayerGradientMode
+  value: ALL
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureRange: -1
+textureBlend:
+  __class: LetterStyleLayerTextureBlend
+  value: NONE
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001d--00000000-0000-0000-0000-00000000001d.png}
+textureNoPremultiply: true
+strokeWidth: 0.2000000029802322
+shadowDistance: 0.05000000074505806
+shadowAngle: -30
+shadowFeather: 0
+shadowDiffuse: -1
+--- !TextTypeSettingParam &25
+name: !<str> ""
+guid: {a: 5260826027306096196, b: 7416439080042903729}
+textAdaptiveCanvasEnabled: true
+autoAdaptDpiEnabled: false
+horizontalPadding: 0
+verticalPadding: 0
+letterSpacing: 0
+lineSpacing: 0
+paragraphSpacing: 0
+paragraphIndent: 0
+isFirstParaIndentEnabled: true
+wordWrapWidth: inf
+wordWrapHeight: 15000
+canvasWHFixed: {x: 11200, y: 1700}
+typeSettingKind:
+  __class: TypesettingKind
+  value: HORIZONTAL
+typeSettingDirect:
+  __class: TypesettingDirect
+  value: LEFT2RIGHT
+typeSettingAlign:
+  __class: TypesettingAlign
+  value: CENTER
+typeSettingAlignVertical:
+  __class: TypesettingAlignVertical
+  value: CENTER
+lineBreakType:
+  __class: LineBreakType
+  value: AUTO_LINEBREAK
+enablePathTypeSetting: false
+mergingIntoOneLine: true
+arcCurveAngle: 0
+closestLineSpacing: false
+isWordWrappingEnabled: true
+autoWrapByWord: false
+wrappingEnabled: false
+autoFontSizeMax: 96
+autoFontSizeMin: -1
+numberOfLines: 0
+containerSize: {x: 11200, y: 1700}
+wrapMode:
+  __class: WrappingMode
+  value: Wrap
+subWrapMode:
+  __class: WrappingMode
+  value: Wrap
+targetFontSize: inf
+widthFitMinFontSize: -1
+layoutMode:
+  __class: LayoutMode
+  value: FixedSize
+autoLayoutMaxHeight: -1
+--- !TextCanvas &26
+name: !<str> ""
+guid: {a: 5473894464755699407, b: 13759770025718823051}
+textRect: {x: -5600, y: -270.9, w: 11200, h: 541.8}
+canvasEnabled: false
+canvasColor: {x: 0, y: 0, z: 0, w: 1}
+canvasRoundCornerEnabled: false
+canvasWrappText: false
+canvasRoundRadius: 0
+canvasRoundRadiusScale: 0
+canvasCustomizedEnabled: false
+canvasWHCustomized: {x: 0, y: 0}
+canvasOffsetCustomized: {x: 0, y: 0}
+renderToRT: false
+renderToRTSizeMode: 0
+RTMeshRect: {x: 0, y: 0, w: 0, h: 0}
+targetRTExtraSize: {x: 0, y: 0}
+canvasStyle:
+  __class: CanvasStyle
+  value: BoundingBox
+pixelTextRect: {x: -5600, y: -270.9, w: 11200, h: 541.8}
+--- !TextBackground &27
+name: !<str> ""
+guid: {a: 4744106812898229818, b: 16301862771638072984}
+enabled: true
+startIndex: 0
+endIndex: 0
+loop: false
+loopGap: 0
+renderType:
+  __class: TextBackgroundRenderType
+  value: SOLID
+color: {r: 0, g: 0, b: 0, a: 1}
+alpha: 1
+scale: 1
+rotation: 0
+expandX: 0
+expandY: 0
+offsetX: 0
+offsetY: 0
+roundness: 0
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001d--00000000-0000-0000-0000-00000000001d.png}
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+gradientColors:
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientStyle:
+  __class: GradientStyle
+  value: Linear
+--- !LetterStyle &28
+name: !<str> ""
+guid: {a: 5651916895741992964, b: 16276989347192534694}
+version: 101
+fontId: !<str> ""
+fontfamily: !<str> font/douyinti.otf
+fontSize: 48
+fontPixelSize: 32
+fontStyle:
+  __class: FontStyle
+  value: BOLD
+italicAngle: 10
+boldValue: 0.00800000037997961
+fontDecoration:
+  __class: FontDecorationType
+  value: NONE
+decorationWidth: 0.03999999910593033
+decorationOffset: 0.1500000059604645
+fill: {localId: 29}
+effectStyleId: !<str> ""
+effectStylePath: !<str> ""
+effectStyleParams: !<str> ""
+innerShadows:
+  - {localId: 30}
+letterBgColorRGBA: {r: 0, g: 0, b: 0, a: 1}
+letterBgAlpha: 0
+selected: false
+--- !LetterStyleLayer &29
+name: !<str> ""
+guid: {a: 5413390944209872722, b: 5190799756019703737}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 5310762846473989108, b: 12274869283611301263}
+  properties:
+    __class: Map
+    gradientColor1: {r: 1, g: 1, b: 1, a: 1}
+    gradientColor2: {r: 1, g: 1, b: 1, a: 1}
+    gradientColor3: {r: 1, g: 1, b: 1, a: 1}
+type:
+  __class: LetterStyleLayerType
+  value: FILL
+enable: true
+alpha: 1
+renderType:
+  __class: LetterStyleLayerRenderType
+  value: SOLID
+color: {r: 1, g: 0.96, b: 0.85, a: 1}
+gradientColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientMode:
+  __class: LetterStyleLayerGradientMode
+  value: ALL
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureRange: -1
+textureBlend:
+  __class: LetterStyleLayerTextureBlend
+  value: NONE
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+textureNoPremultiply: true
+strokeWidth: 0.2000000029802322
+shadowDistance: 0
+shadowAngle: -45
+shadowFeather: -1
+shadowDiffuse: -1
+--- !LetterStyleLayer &30
+name: !<str> ""
+guid: {a: 4985882276484083302, b: 14150453105342329998}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 5539797438435363632, b: 15476074864490209685}
+  properties:
+    __class: Map
+    gradientColor1: {r: 0, g: 0, b: 0, a: 1}
+    gradientColor2: {r: 0, g: 0, b: 0, a: 1}
+    gradientColor3: {r: 0, g: 0, b: 0, a: 1}
+type:
+  __class: LetterStyleLayerType
+  value: INNER_SHADOW
+enable: false
+alpha: 0.8999999761581421
+renderType:
+  __class: LetterStyleLayerRenderType
+  value: SOLID
+color: {r: 0, g: 0, b: 0, a: 1}
+gradientColors:
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientMode:
+  __class: LetterStyleLayerGradientMode
+  value: ALL
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureRange: -1
+textureBlend:
+  __class: LetterStyleLayerTextureBlend
+  value: NONE
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001d--00000000-0000-0000-0000-00000000001d.png}
+textureNoPremultiply: true
+strokeWidth: 0.2000000029802322
+shadowDistance: 0.05000000074505806
+shadowAngle: -30
+shadowFeather: 0
+shadowDiffuse: -1
+--- !TextTypeSettingParam &31
+name: !<str> ""
+guid: {a: 4847389313126144186, b: 17702702278766141361}
+textAdaptiveCanvasEnabled: true
+autoAdaptDpiEnabled: false
+horizontalPadding: 0
+verticalPadding: 0
+letterSpacing: 0
+lineSpacing: 0
+paragraphSpacing: 0
+paragraphIndent: 0
+isFirstParaIndentEnabled: true
+wordWrapWidth: inf
+wordWrapHeight: 15000
+canvasWHFixed: {x: 10200, y: 2900}
+typeSettingKind:
+  __class: TypesettingKind
+  value: HORIZONTAL
+typeSettingDirect:
+  __class: TypesettingDirect
+  value: LEFT2RIGHT
+typeSettingAlign:
+  __class: TypesettingAlign
+  value: CENTER
+typeSettingAlignVertical:
+  __class: TypesettingAlignVertical
+  value: CENTER
+lineBreakType:
+  __class: LineBreakType
+  value: AUTO_LINEBREAK
+enablePathTypeSetting: false
+mergingIntoOneLine: true
+arcCurveAngle: 0
+closestLineSpacing: false
+isWordWrappingEnabled: true
+autoWrapByWord: false
+wrappingEnabled: false
+autoFontSizeMax: 96
+autoFontSizeMin: -1
+numberOfLines: 0
+containerSize: {x: 10200, y: 2900}
+wrapMode:
+  __class: WrappingMode
+  value: Wrap
+subWrapMode:
+  __class: WrappingMode
+  value: Wrap
+targetFontSize: inf
+widthFitMinFontSize: -1
+layoutMode:
+  __class: LayoutMode
+  value: FixedSize
+autoLayoutMaxHeight: -1
+--- !TextCanvas &32
+name: !<str> ""
+guid: {a: 5638211772948607244, b: 4564021773358202011}
+textRect: {x: -5100, y: -937.6, w: 10200, h: 1875.2}
+canvasEnabled: false
+canvasColor: {x: 0, y: 0, z: 0, w: 1}
+canvasRoundCornerEnabled: false
+canvasWrappText: false
+canvasRoundRadius: 0
+canvasRoundRadiusScale: 0
+canvasCustomizedEnabled: false
+canvasWHCustomized: {x: 0, y: 0}
+canvasOffsetCustomized: {x: 0, y: 0}
+renderToRT: false
+renderToRTSizeMode: 0
+RTMeshRect: {x: 0, y: 0, w: 0, h: 0}
+targetRTExtraSize: {x: 0, y: 0}
+canvasStyle:
+  __class: CanvasStyle
+  value: BoundingBox
+pixelTextRect: {x: -5100, y: -937.6, w: 10200, h: 1875.2}
+--- !TextBackground &33
+name: !<str> ""
+guid: {a: 5239964322364726582, b: 15696331602208181421}
+enabled: true
+startIndex: 0
+endIndex: 0
+loop: false
+loopGap: 0
+renderType:
+  __class: TextBackgroundRenderType
+  value: SOLID
+color: {r: 0, g: 0, b: 0, a: 1}
+alpha: 1
+scale: 1
+rotation: 0
+expandX: 0
+expandY: 0
+offsetX: 0
+offsetY: 0
+roundness: 0
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001d--00000000-0000-0000-0000-00000000001d.png}
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+gradientColors:
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientStyle:
+  __class: GradientStyle
+  value: Linear
+--- !ScreenTransform &34
+name: !<str> ""
+guid: {a: 5635227593290644844, b: 96011153365146}
+enabled: true
+localPosition: {x: -1.25, y: -2.5, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: -40, y: -80}
+sizeDelta: {x: 410, y: 410}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &35
+name: !<str> ""
+guid: {a: 4790460140310463800, b: 7599343424139819142}
+enabled: true
+localPosition: {x: 0, y: -14.93614, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+children:
+  - {localId: 36}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: -3.996803e-14, y: -477.9566}
+sizeDelta: {x: 560, y: 140}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &36
+name: !<str> ""
+guid: {a: 5251214179233644852, b: 7781904260199515265}
+enabled: true
+localPosition: {x: 0, y: 0.2805715, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 35}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 8.978287}
+sizeDelta: {x: 560, y: 62.95657}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: true
+--- !LetterStyle &37
+name: !<str> ""
+guid: {a: 5408004067148827956, b: 299220450524403385}
+version: 101
+fontId: !<str> ""
+fontfamily: !<str> font/douyinti.otf
+fontSize: 48
+fontPixelSize: 28
+fontStyle:
+  __class: FontStyle
+  value: BOLD
+italicAngle: 10
+boldValue: 0.00800000037997961
+fontDecoration:
+  __class: FontDecorationType
+  value: NONE
+decorationWidth: 0.03999999910593033
+decorationOffset: 0.1500000059604645
+fill: {localId: 38}
+effectStyleId: !<str> ""
+effectStylePath: !<str> ""
+effectStyleParams: !<str> ""
+innerShadows:
+  - {localId: 39}
+letterBgColorRGBA: {r: 0, g: 0, b: 0, a: 1}
+letterBgAlpha: 0
+selected: false
+--- !LetterStyleLayer &38
+name: !<str> ""
+guid: {a: 5726187855426970762, b: 17882569452181424261}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 4992220954823975330, b: 7646519637081077125}
+  properties:
+    __class: Map
+    gradientColor1: {r: 1, g: 1, b: 1, a: 1}
+    gradientColor2: {r: 1, g: 1, b: 1, a: 1}
+    gradientColor3: {r: 1, g: 1, b: 1, a: 1}
+type:
+  __class: LetterStyleLayerType
+  value: FILL
+enable: true
+alpha: 1
+renderType:
+  __class: LetterStyleLayerRenderType
+  value: SOLID
+color: {r: 1, g: 0.96, b: 0.85, a: 1}
+gradientColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientMode:
+  __class: LetterStyleLayerGradientMode
+  value: ALL
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureRange: -1
+textureBlend:
+  __class: LetterStyleLayerTextureBlend
+  value: NONE
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+textureNoPremultiply: true
+strokeWidth: 0.2000000029802322
+shadowDistance: 0
+shadowAngle: -45
+shadowFeather: -1
+shadowDiffuse: -1
+--- !LetterStyleLayer &39
+name: !<str> ""
+guid: {a: 5089231829007495740, b: 6305531813780381610}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 5627547965554192732, b: 13022409121433554598}
+  properties:
+    __class: Map
+    gradientColor1: {r: 0, g: 0, b: 0, a: 1}
+    gradientColor2: {r: 0, g: 0, b: 0, a: 1}
+    gradientColor3: {r: 0, g: 0, b: 0, a: 1}
+type:
+  __class: LetterStyleLayerType
+  value: INNER_SHADOW
+enable: false
+alpha: 0.8999999761581421
+renderType:
+  __class: LetterStyleLayerRenderType
+  value: SOLID
+color: {r: 0, g: 0, b: 0, a: 1}
+gradientColors:
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientMode:
+  __class: LetterStyleLayerGradientMode
+  value: ALL
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureRange: -1
+textureBlend:
+  __class: LetterStyleLayerTextureBlend
+  value: NONE
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001d--00000000-0000-0000-0000-00000000001d.png}
+textureNoPremultiply: true
+strokeWidth: 0.2000000029802322
+shadowDistance: 0.05000000074505806
+shadowAngle: -30
+shadowFeather: 0
+shadowDiffuse: -1
+--- !TextTypeSettingParam &40
+name: !<str> ""
+guid: {a: 5669207186523757831, b: 8772864280044579459}
+textAdaptiveCanvasEnabled: true
+autoAdaptDpiEnabled: false
+horizontalPadding: 0
+verticalPadding: 0
+letterSpacing: 0
+lineSpacing: 0
+paragraphSpacing: 0
+paragraphIndent: 0
+isFirstParaIndentEnabled: true
+wordWrapWidth: inf
+wordWrapHeight: 15000
+canvasWHFixed: {x: 11200, y: 1259.131}
+typeSettingKind:
+  __class: TypesettingKind
+  value: HORIZONTAL
+typeSettingDirect:
+  __class: TypesettingDirect
+  value: LEFT2RIGHT
+typeSettingAlign:
+  __class: TypesettingAlign
+  value: CENTER
+typeSettingAlignVertical:
+  __class: TypesettingAlignVertical
+  value: CENTER
+lineBreakType:
+  __class: LineBreakType
+  value: AUTO_LINEBREAK
+enablePathTypeSetting: false
+mergingIntoOneLine: true
+arcCurveAngle: 0
+closestLineSpacing: false
+isWordWrappingEnabled: true
+autoWrapByWord: false
+wrappingEnabled: false
+autoFontSizeMax: 96
+autoFontSizeMin: -1
+numberOfLines: 0
+containerSize: {x: 11200, y: 1259.131}
+wrapMode:
+  __class: WrappingMode
+  value: Wrap
+subWrapMode:
+  __class: WrappingMode
+  value: Wrap
+targetFontSize: inf
+widthFitMinFontSize: -1
+layoutMode:
+  __class: LayoutMode
+  value: FixedSize
+autoLayoutMaxHeight: -1
+--- !TextCanvas &41
+name: !<str> ""
+guid: {a: 4964684903661239660, b: 1534357177208935335}
+textRect: {x: -5600, y: -266.56, w: 11200, h: 533.12}
+canvasEnabled: false
+canvasColor: {x: 0, y: 0, z: 0, w: 1}
+canvasRoundCornerEnabled: false
+canvasWrappText: false
+canvasRoundRadius: 0
+canvasRoundRadiusScale: 0
+canvasCustomizedEnabled: false
+canvasWHCustomized: {x: 0, y: 0}
+canvasOffsetCustomized: {x: 0, y: 0}
+renderToRT: false
+renderToRTSizeMode: 0
+RTMeshRect: {x: 0, y: 0, w: 0, h: 0}
+targetRTExtraSize: {x: 0, y: 0}
+canvasStyle:
+  __class: CanvasStyle
+  value: BoundingBox
+pixelTextRect: {x: -5600, y: -266.56, w: 11200, h: 533.12}
+--- !TextBackground &42
+name: !<str> ""
+guid: {a: 4967505531414011120, b: 3903986803222630064}
+enabled: true
+startIndex: 0
+endIndex: 0
+loop: false
+loopGap: 0
+renderType:
+  __class: TextBackgroundRenderType
+  value: SOLID
+color: {r: 0, g: 0, b: 0, a: 1}
+alpha: 1
+scale: 1
+rotation: 0
+expandX: 0
+expandY: 0
+offsetX: 0
+offsetY: 0
+roundness: 0
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001d--00000000-0000-0000-0000-00000000001d.png}
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+gradientColors:
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientStyle:
+  __class: GradientStyle
+  value: Linear
+--- !ScreenTransform &43
+name: !<str> ""
+guid: {a: 5005901318040189145, b: 910513637585772979}
+enabled: true
+localPosition: {x: 4.6875, y: 19.375, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 150, y: 620}
+sizeDelta: {x: 24, y: 40}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: true
+--- !LetterStyle &44
+name: !<str> ""
+guid: {a: 5516569764956998506, b: 962694124476883587}
+version: 101
+fontId: !<str> ""
+fontfamily: !<str> font/douyinti.otf
+fontSize: 48
+fontPixelSize: 44
+fontStyle:
+  __class: FontStyle
+  value: NORMAL
+italicAngle: 10
+boldValue: 0.00800000037997961
+fontDecoration:
+  __class: FontDecorationType
+  value: NONE
+decorationWidth: 0.03999999910593033
+decorationOffset: 0.1500000059604645
+fill: {localId: 45}
+effectStyleId: !<str> ""
+effectStylePath: !<str> ""
+effectStyleParams: !<str> ""
+innerShadows:
+  - {localId: 46}
+letterBgColorRGBA: {r: 0, g: 0, b: 0, a: 1}
+letterBgAlpha: 0
+selected: false
+--- !LetterStyleLayer &45
+name: !<str> ""
+guid: {a: 5315164591366263931, b: 62222860222284674}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 5652665649931803750, b: 2630765592287805363}
+  properties:
+    __class: Map
+    gradientColor1: {r: 1, g: 1, b: 1, a: 1}
+    gradientColor2: {r: 1, g: 1, b: 1, a: 1}
+    gradientColor3: {r: 1, g: 1, b: 1, a: 1}
+type:
+  __class: LetterStyleLayerType
+  value: FILL
+enable: true
+alpha: 1
+renderType:
+  __class: LetterStyleLayerRenderType
+  value: SOLID
+color: {r: 0.9, g: 0.87, b: 1, a: 1}
+gradientColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientMode:
+  __class: LetterStyleLayerGradientMode
+  value: ALL
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureRange: -1
+textureBlend:
+  __class: LetterStyleLayerTextureBlend
+  value: NONE
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+textureNoPremultiply: true
+strokeWidth: 0.2000000029802322
+shadowDistance: 0
+shadowAngle: -45
+shadowFeather: -1
+shadowDiffuse: -1
+--- !LetterStyleLayer &46
+name: !<str> ""
+guid: {a: 5320760000814792769, b: 11700452390086748062}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 5340522959487005877, b: 3021168774769991595}
+  properties:
+    __class: Map
+    gradientColor1: {r: 0, g: 0, b: 0, a: 1}
+    gradientColor2: {r: 0, g: 0, b: 0, a: 1}
+    gradientColor3: {r: 0, g: 0, b: 0, a: 1}
+type:
+  __class: LetterStyleLayerType
+  value: INNER_SHADOW
+enable: false
+alpha: 0.8999999761581421
+renderType:
+  __class: LetterStyleLayerRenderType
+  value: SOLID
+color: {r: 0, g: 0, b: 0, a: 1}
+gradientColors:
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientMode:
+  __class: LetterStyleLayerGradientMode
+  value: ALL
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureRange: -1
+textureBlend:
+  __class: LetterStyleLayerTextureBlend
+  value: NONE
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001d--00000000-0000-0000-0000-00000000001d.png}
+textureNoPremultiply: true
+strokeWidth: 0.2000000029802322
+shadowDistance: 0.05000000074505806
+shadowAngle: -30
+shadowFeather: 0
+shadowDiffuse: -1
+--- !TextTypeSettingParam &47
+name: !<str> ""
+guid: {a: 5233505520925191347, b: 13124060433721019829}
+textAdaptiveCanvasEnabled: false
+autoAdaptDpiEnabled: false
+horizontalPadding: 0
+verticalPadding: 0
+letterSpacing: 0
+lineSpacing: 0
+paragraphSpacing: 0
+paragraphIndent: 0
+isFirstParaIndentEnabled: true
+wordWrapWidth: inf
+wordWrapHeight: 15000
+canvasWHFixed: {x: 480, y: 800}
+typeSettingKind:
+  __class: TypesettingKind
+  value: HORIZONTAL
+typeSettingDirect:
+  __class: TypesettingDirect
+  value: LEFT2RIGHT
+typeSettingAlign:
+  __class: TypesettingAlign
+  value: CENTER
+typeSettingAlignVertical:
+  __class: TypesettingAlignVertical
+  value: CENTER
+lineBreakType:
+  __class: LineBreakType
+  value: CUT_OFF
+enablePathTypeSetting: false
+mergingIntoOneLine: true
+arcCurveAngle: 0
+closestLineSpacing: false
+isWordWrappingEnabled: true
+autoWrapByWord: false
+wrappingEnabled: true
+autoFontSizeMax: 1000
+autoFontSizeMin: -1
+numberOfLines: 0
+containerSize: {x: 480, y: 800}
+wrapMode:
+  __class: WrappingMode
+  value: Wrap
+subWrapMode:
+  __class: WrappingMode
+  value: Wrap
+targetFontSize: inf
+widthFitMinFontSize: -1
+layoutMode:
+  __class: LayoutMode
+  value: FixedSize
+autoLayoutMaxHeight: -1
+--- !TextCanvas &48
+name: !<str> ""
+guid: {a: 4669969674550084313, b: 6717536599353133711}
+textRect: {x: -240, y: -228, w: 480, h: 456}
+canvasEnabled: false
+canvasColor: {x: 0, y: 0, z: 0, w: 1}
+canvasRoundCornerEnabled: false
+canvasWrappText: false
+canvasRoundRadius: 0
+canvasRoundRadiusScale: 0
+canvasCustomizedEnabled: false
+canvasWHCustomized: {x: 0, y: 0}
+canvasOffsetCustomized: {x: 0, y: 0}
+renderToRT: false
+renderToRTSizeMode: 0
+RTMeshRect: {x: 0, y: 0, w: 0, h: 0}
+targetRTExtraSize: {x: 0, y: 0}
+canvasStyle:
+  __class: CanvasStyle
+  value: BoundingBox
+pixelTextRect: {x: -240, y: -228, w: 480, h: 456}
+--- !TextBackground &49
+name: !<str> ""
+guid: {a: 5702208105799760101, b: 15969249938068342705}
+enabled: true
+startIndex: 0
+endIndex: 0
+loop: false
+loopGap: 0
+renderType:
+  __class: TextBackgroundRenderType
+  value: SOLID
+color: {r: 0, g: 0, b: 0, a: 1}
+alpha: 1
+scale: 1
+rotation: 0
+expandX: 0
+expandY: 0
+offsetX: 0
+offsetY: 0
+roundness: 0
+texturePath: !<str> ""
+textureFlipX: false
+textureFlipY: false
+texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001d--00000000-0000-0000-0000-00000000001d.png}
+textureScale: 1
+textureAlpha: 1
+textureAngle: 0
+textureStretchMode:
+  __class: ImageStretchMode
+  value: Fit
+textureOffsetX: 0
+textureOffsetY: 0
+extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
+gradientColors:
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+gradientPoints: [0, 1]
+gradientAngle: 90
+gradientStyle:
+  __class: GradientStyle
+  value: Linear
+--- !ScreenTransform &50
+name: !<str> ""
+guid: {a: 4618343817581161778, b: 18286060386536106147}
+enabled: true
+localPosition: {x: 4.6875, y: 19.375, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 150, y: 620}
+sizeDelta: {x: 3, y: 40}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false

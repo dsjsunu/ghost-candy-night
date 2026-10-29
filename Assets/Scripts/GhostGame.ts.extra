@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "72cd940f-37c0-852d-6aa4-8a45c7cbf3d1",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "GhostGame",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\26428\\Desktop\\fx-proto\\像塑工程\\幽灵躲南瓜\\Assets\\Scripts\\GhostGame.ts",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

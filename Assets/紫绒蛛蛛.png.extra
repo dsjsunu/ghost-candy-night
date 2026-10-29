@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "01495144-672b-cd67-22d8-5b36186ea0a3",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "紫绒蛛蛛",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\26428\\AppData\\Local\\Temp\\dyeh-mcp-aigc\\image\\1793238160823_3sgdpackmx3\\紫绒蛛蛛.png",
+    "references": []
+  }
+]

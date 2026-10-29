@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "76e905d5-62ea-449c-789b-68e7391e7524",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "幽灵糖果大丰收",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\26428\\AppData\\Local\\Temp\\dyeh-mcp-aigc\\image\\1793238160854_il0icsh1wpf\\幽灵糖果大丰收.png",
+    "references": []
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "3ef6b2eb-f230-7ca5-e137-e4c449b7185b",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "果冻小幽灵",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\26428\\AppData\\Local\\Temp\\dyeh-mcp-aigc\\image\\1793180747692_fgs8zbnajx5\\果冻小幽灵.png",
+    "references": []
+  }
+]

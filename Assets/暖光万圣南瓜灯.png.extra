@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "47918702-a58f-1b97-b8ba-2fcdbefdd1e8",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "暖光万圣南瓜灯",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\26428\\AppData\\Local\\Temp\\dyeh-mcp-aigc\\image\\1793256221090_rcftvybrmza\\暖光万圣南瓜灯.png",
+    "references": []
+  }
+]

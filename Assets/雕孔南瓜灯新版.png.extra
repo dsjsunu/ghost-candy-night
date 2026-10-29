@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "bd0ba9b9-95c5-6943-adcc-ab48c6ebdf13",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "雕孔南瓜灯新版",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\26428\\AppData\\Local\\Temp\\dyeh-mcp-aigc\\image\\1793258611544_m1wjntypap\\雕孔南瓜灯新版.png",
+    "references": []
+  }
+]

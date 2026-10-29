@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "992ababe-cb4b-246d-c8c2-e13f5fd24c7b",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "软糖捣蛋南瓜",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\26428\\AppData\\Local\\Temp\\dyeh-mcp-aigc\\image\\1793238158620_cfu495yf968\\软糖捣蛋南瓜.png",
+    "references": []
+  }
+]

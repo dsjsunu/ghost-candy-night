@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "ae997ce5-82c6-029b-6016-d72fc6d0b333",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "白紫蛛网弹丸",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:/Users/26428/Desktop/fx-proto/像塑工程/击剑三择/Assets/白紫蛛网弹丸.png",
+    "references": []
+  }
+]
