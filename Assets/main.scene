@@ -45,26 +45,28 @@ entities:
           guid: {a: 5722843292228700683, b: 5084119063739039617}
           properties:
             __class: Map
+            angelTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000006b--00000000-0000-0000-0000-00000000006b.png}
+            devilTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000006b--00000000-0000-0000-0000-00000000006b.png}
             failureTexture: {localId: 1, path: 4adbfbd4-d433-d6a6-9d75-74ae4b50ce6f--4adbfbd4-d433-d6a6-9d75-74ae4b50ce6f.png}
-            ghost: {localId: 11}
-            hud: {localId: 17}
-            hurt: {localId: 10}
-            panel: {localId: 18}
-            result: {localId: 19}
-            resultArt: {localId: 34}
-            reward: {localId: 7}
-            silk: {localId: 50}
-            spider: {localId: 20}
+            ghost: {localId: 13}
+            hud: {localId: 7}
+            hurt: {localId: 26}
+            panel: {localId: 15}
+            result: {localId: 16}
+            resultArt: {localId: 22}
+            reward: {localId: 23}
+            silk: {localId: 19}
+            spider: {localId: 17}
             stageTwoScore: 100
             successTexture: {localId: 1, path: 76e905d5-62ea-449c-789b-68e7391e7524--76e905d5-62ea-449c-789b-68e7391e7524.png}
-            template: {localId: 15}
+            template: {localId: 14}
             textures:
               - {localId: 1, path: bd0ba9b9-95c5-6943-adcc-ab48c6ebdf13--bd0ba9b9-95c5-6943-adcc-ab48c6ebdf13.png}
-            tutorial: {localId: 36}
+            tutorial: {localId: 21}
             verificationOutcome: 0
             verificationScore: 0
             verificationTime: 0
-            webTemplate: {localId: 21}
+            webTemplate: {localId: 18}
         enabled: true
         className: !<str> 72cd940f-37c0-852d-6aa4-8a45c7cbf3d1
     layer: 0
@@ -115,7 +117,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 12}
+      - {localId: 9}
       - __class: EffectNode
         name: !<str> ""
         guid: {a: 4814136646431453744, b: 15209876453207765922}
@@ -139,7 +141,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 14}
+      - {localId: 12}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 5444878073719777696, b: 18230393693416113571}
@@ -185,7 +187,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 13}
+      - {localId: 11}
       - __class: Camera
         name: !<str> ""
         guid: {a: 4796064918783304489, b: 8627711588296484765}
@@ -226,7 +228,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 11}
+      - {localId: 13}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 5214800059725019043, b: 6766320023467245235}
@@ -272,7 +274,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 15}
+      - {localId: 14}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 5285940356353582980, b: 15622748223442511492}
@@ -318,7 +320,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 16}
+      - {localId: 8}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 4732958382121958169, b: 1666112066864616327}
@@ -364,7 +366,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 17}
+      - {localId: 7}
       - __class: Text
         name: !<str> ""
         guid: {a: 5050821059118942656, b: 2328610568395486111}
@@ -404,11 +406,11 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        activeTextStyle: {localId: 22}
+        activeTextStyle: {localId: 27}
         letters:
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5058239889037336541, b: 565945229352047782}
+            guid: {a: 5310189310108623793, b: 8960825160809167522}
             utf8: !<str> 生
             initialPosition: {x: -2517.3, y: 10.79999}
             position: {x: -2517.3, y: 10.79999}
@@ -417,10 +419,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5361159140894080515, b: 14190739449975805597}
+            guid: {a: 5308725426681713091, b: 13690264380759390390}
             utf8: !<str> 命
             initialPosition: {x: -1912.5, y: 0.9000244}
             position: {x: -1912.5, y: 0.9000244}
@@ -429,10 +431,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5125479323208963121, b: 3839422869551818375}
+            guid: {a: 5276748309841567136, b: 18137191600715945878}
             utf8: !<str> " "
             initialPosition: {x: -1538.1, y: 0.9000244}
             position: {x: -1538.1, y: 0.9000244}
@@ -441,10 +443,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4812227261451246075, b: 16524829214957129856}
+            guid: {a: 5721164991656912713, b: 6741357326069747359}
             utf8: !<str> 3
             initialPosition: {x: -1293.9, y: -2.700012}
             position: {x: -1293.9, y: -2.700012}
@@ -453,10 +455,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5092196763339244373, b: 13147622492500097469}
+            guid: {a: 5364068776245809205, b: 4659632374573306253}
             utf8: !<str> /
             initialPosition: {x: -994.2002, y: 1.200012}
             position: {x: -994.2002, y: 1.200012}
@@ -465,10 +467,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4935850193954474823, b: 1884007997865859970}
+            guid: {a: 5252618293623618745, b: 7656592758087120273}
             utf8: !<str> 3
             initialPosition: {x: -694.5002, y: -2.700012}
             position: {x: -694.5002, y: -2.700012}
@@ -477,10 +479,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5317142125101291394, b: 17120407262782175393}
+            guid: {a: 4744203138568980523, b: 11606862079385185975}
             utf8: !<str> " "
             initialPosition: {x: -450.3003, y: 0.9000244}
             position: {x: -450.3003, y: 0.9000244}
@@ -489,10 +491,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5552115442362654494, b: 2704730429733022379}
+            guid: {a: 5193142669393022670, b: 16733199807811975841}
             utf8: !<str> " "
             initialPosition: {x: -300.3003, y: 0.9000244}
             position: {x: -300.3003, y: 0.9000244}
@@ -501,10 +503,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5479082760094876159, b: 14643964940572726174}
+            guid: {a: 4804840281870599647, b: 17359889262525500344}
             utf8: !<str> " "
             initialPosition: {x: -150.3003, y: 0.9000244}
             position: {x: -150.3003, y: 0.9000244}
@@ -513,10 +515,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4805468368160335187, b: 11540901125249349535}
+            guid: {a: 5020576776408736053, b: 8868647559188547519}
             utf8: !<str> " "
             initialPosition: {x: -0.300293, y: 0.9000244}
             position: {x: -0.300293, y: 0.9000244}
@@ -525,10 +527,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5468592202281791138, b: 3928721444963422123}
+            guid: {a: 5738301957200347577, b: 1687497172346358922}
             utf8: !<str> 1
             initialPosition: {x: 175.1997, y: 0.9000244}
             position: {x: 175.1997, y: 0.9000244}
@@ -537,10 +539,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4883745344073591401, b: 14460436413074214058}
+            guid: {a: 5294821164604168484, b: 7138982638363485855}
             utf8: !<str> 5
             initialPosition: {x: 492.8996, y: -2.700012}
             position: {x: 492.8996, y: -2.700012}
@@ -549,10 +551,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5251454958773983581, b: 10340566837830154904}
+            guid: {a: 5252318612353891595, b: 5194853880269087413}
             utf8: !<str> 秒
             initialPosition: {x: 959.6998, y: 0}
             position: {x: 959.6998, y: 0}
@@ -561,10 +563,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5065718674722685300, b: 9488098964280171434}
+            guid: {a: 5287763097996807575, b: 7750923351918723997}
             utf8: !<str> " "
             initialPosition: {x: 1337.1, y: 0.9000244}
             position: {x: 1337.1, y: 0.9000244}
@@ -573,10 +575,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5037896698787337355, b: 4829948877844816056}
+            guid: {a: 5286839576600666544, b: 3991998519113787267}
             utf8: !<str> " "
             initialPosition: {x: 1487.1, y: 0.9000244}
             position: {x: 1487.1, y: 0.9000244}
@@ -585,10 +587,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5505321708081310010, b: 15941290822169535115}
+            guid: {a: 4777598556134965093, b: 14021196476119886724}
             utf8: !<str> " "
             initialPosition: {x: 1637.1, y: 0.9000244}
             position: {x: 1637.1, y: 0.9000244}
@@ -597,10 +599,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5707266384266177088, b: 12734250489841723061}
+            guid: {a: 4667646627833657054, b: 11898779675448715191}
             utf8: !<str> " "
             initialPosition: {x: 1787.1, y: 0.9000244}
             position: {x: 1787.1, y: 0.9000244}
@@ -609,10 +611,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4929613450101171411, b: 14689524559628817297}
+            guid: {a: 5376444381596621065, b: 4301276590554736516}
             utf8: !<str> 0
             initialPosition: {x: 2037.6, y: 0.9000244}
             position: {x: 2037.6, y: 0.9000244}
@@ -621,10 +623,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4686295382854466153, b: 15431566857525223597}
+            guid: {a: 4815357570976259243, b: 12426016052950580157}
             utf8: !<str> 分
             initialPosition: {x: 2510.4, y: 3.300018}
             position: {x: 2510.4, y: 3.300018}
@@ -633,12 +635,12 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 22}
+            letterStyle: {localId: 27}
         str: !<str> 生命 3/3    15秒    0分
         richStr: !<str> 生命 3/3    15秒    0分
-        typeSettingParam: {localId: 25}
-        canvas: {localId: 26}
-        globalBackground: {localId: 27}
+        typeSettingParam: {localId: 30}
+        canvas: {localId: 31}
+        globalBackground: {localId: 32}
         textLocale:
           __class: TextLocale
           value: LTRLocale
@@ -683,7 +685,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 18}
+      - {localId: 15}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 4705859586929595649, b: 11424611870462273967}
@@ -729,7 +731,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 19}
+      - {localId: 16}
       - __class: Text
         name: !<str> ""
         guid: {a: 5668229879432290324, b: 476514900617977240}
@@ -769,11 +771,11 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        activeTextStyle: {localId: 28}
+        activeTextStyle: {localId: 33}
         letters:
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4618063834953880934, b: 675597076471346870}
+            guid: {a: 5474418041828718995, b: 13878607157828300165}
             utf8: !<str> 幽
             initialPosition: {x: -1280.64, y: 655.9999}
             position: {x: -1280.64, y: 655.9999}
@@ -782,10 +784,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5303126148386528475, b: 15069679101371243951}
+            guid: {a: 5321966219517551484, b: 16771800348015402160}
             utf8: !<str> 灵
             initialPosition: {x: -639.9999, y: 636.7999}
             position: {x: -639.9999, y: 636.7999}
@@ -794,10 +796,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5431334953449632273, b: 2269108305383454101}
+            guid: {a: 5654270522453725989, b: 14454785491880974220}
             utf8: !<str> 糖
             initialPosition: {x: -5.759827, y: 649.6}
             position: {x: -5.759827, y: 649.6}
@@ -806,10 +808,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4852556201540426751, b: 11024867098613111190}
+            guid: {a: 5015708018265690498, b: 1074655089285388457}
             utf8: !<str> 果
             initialPosition: {x: 639.3602, y: 640.64}
             position: {x: 639.3602, y: 640.64}
@@ -818,10 +820,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5369664827567132168, b: 7129335267459244944}
+            guid: {a: 4654545415445183261, b: 15225394594199202206}
             utf8: !<str> 夜
             initialPosition: {x: 1276.16, y: 648.3199}
             position: {x: 1276.16, y: 648.3199}
@@ -830,10 +832,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5243894822155472369, b: 17680009220525314701}
+            guid: {a: 5309486950100073082, b: 8772026486753622203}
             utf8: !<str> "\n"
             initialPosition: {x: 1472, y: 745.6}
             position: {x: 1472, y: 745.6}
@@ -842,10 +844,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5239786189369703883, b: 10182190593348712123}
+            guid: {a: 5117675188162084252, b: 5934305151039267773}
             utf8: !<str> 轻
             initialPosition: {x: -2242.88, y: 8.320068}
             position: {x: -2242.88, y: 8.320068}
@@ -854,10 +856,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4844129832509108901, b: 17934293122324957082}
+            guid: {a: 5626214479976924637, b: 10058053438072063906}
             utf8: !<str> 轻
             initialPosition: {x: -1602.88, y: 8.320068}
             position: {x: -1602.88, y: 8.320068}
@@ -866,10 +868,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5157837151872945305, b: 7323110903295062718}
+            guid: {a: 4833753030153146755, b: 12621884070979938720}
             utf8: !<str> 左
             initialPosition: {x: -962.8801, y: 19.20001}
             position: {x: -962.8801, y: 19.20001}
@@ -878,10 +880,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5625839153148244955, b: 5412760997942898870}
+            guid: {a: 5649556348628536284, b: 8024183916206843318}
             utf8: !<str> 右
             initialPosition: {x: -322.8799, y: 16.00003}
             position: {x: -322.8799, y: 16.00003}
@@ -890,10 +892,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5543782906988293917, b: 12243668456603186358}
+            guid: {a: 5083696626765861018, b: 17312974025456550038}
             utf8: !<str> 移
             initialPosition: {x: 316.1599, y: 8.320038}
             position: {x: 316.1599, y: 8.320038}
@@ -902,10 +904,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4676989778913421120, b: 5454883491402921371}
+            guid: {a: 5097662173996400376, b: 7541322621197938348}
             utf8: !<str> 动
             initialPosition: {x: 946.5601, y: 9.600037}
             position: {x: 946.5601, y: 9.600037}
@@ -914,10 +916,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4618224836907071116, b: 14297279211365812642}
+            guid: {a: 5732390843068894972, b: 1212323826287777963}
             utf8: !<str> 头
             initialPosition: {x: 1601.28, y: 9.600037}
             position: {x: 1601.28, y: 9.600037}
@@ -926,10 +928,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4878132707617200886, b: 7970691295085879734}
+            guid: {a: 4646828262005514450, b: 6456564423539218872}
             utf8: !<str> 部
             initialPosition: {x: 2233.28, y: 9.600037}
             position: {x: 2233.28, y: 9.600037}
@@ -938,10 +940,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4818372669047000241, b: 17270294710874622613}
+            guid: {a: 5621099767829570484, b: 8183605151656044682}
             utf8: !<str> "\n"
             initialPosition: {x: 2432, y: 105.6}
             position: {x: 2432, y: 105.6}
@@ -950,10 +952,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5064757187347814176, b: 17199651857321468089}
+            guid: {a: 5116838538987345930, b: 18405633292168829852}
             utf8: !<str> 开
             initialPosition: {x: -2707.84, y: -653.1199}
             position: {x: -2707.84, y: -653.1199}
@@ -962,10 +964,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5425631363580333442, b: 5418438318514517388}
+            guid: {a: 5366689720397938922, b: 89514155899609016}
             utf8: !<str> 拍
             initialPosition: {x: -2078.72, y: -628.48}
             position: {x: -2078.72, y: -628.48}
@@ -974,10 +976,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4632968661718271050, b: 4301691499925161906}
+            guid: {a: 5700686874314191946, b: 2587987034781711774}
             utf8: !<str> 挑
             initialPosition: {x: -1428.16, y: -633.5999}
             position: {x: -1428.16, y: -633.5999}
@@ -986,10 +988,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5730581284970597424, b: 10211818409462623374}
+            guid: {a: 5709230433817508962, b: 11719662063481437872}
             utf8: !<str> 战
             initialPosition: {x: -776.3199, y: -640}
             position: {x: -776.3199, y: -640}
@@ -998,10 +1000,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4762114920715339026, b: 4953822630304032406}
+            guid: {a: 4993966154019625180, b: 10564660370760617387}
             utf8: !<str> 2
             initialPosition: {x: -286.72, y: -626.56}
             position: {x: -286.72, y: -626.56}
@@ -1010,10 +1012,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4804402494256195611, b: 5193224666317801652}
+            guid: {a: 4643036584527679118, b: 1397175359978850993}
             utf8: !<str> 0
             initialPosition: {x: 80.95953, y: -630.4}
             position: {x: 80.95953, y: -630.4}
@@ -1022,10 +1024,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4850417826281042115, b: 14922993909035150464}
+            guid: {a: 5546901342317908777, b: 16203072477473763236}
             utf8: !<str> 秒
             initialPosition: {x: 585.5996, y: -631.36}
             position: {x: 585.5996, y: -631.36}
@@ -1034,10 +1036,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4711959970680553787, b: 16550138234509580706}
+            guid: {a: 4985798245965052503, b: 12428550631315442341}
             utf8: !<str> " "
             initialPosition: {x: 988.1597, y: -630.4}
             position: {x: 988.1597, y: -630.4}
@@ -1046,10 +1048,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5636464183420195566, b: 7363780855866270109}
+            guid: {a: 5715431888395365209, b: 14752240140023725718}
             utf8: !<str> ·
             initialPosition: {x: 1147.2, y: -630.4}
             position: {x: 1147.2, y: -630.4}
@@ -1058,10 +1060,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5226478716624760320, b: 770796157111514019}
+            guid: {a: 4926274601975920398, b: 6366295491695254448}
             utf8: !<str> " "
             initialPosition: {x: 1306.24, y: -630.4}
             position: {x: 1306.24, y: -630.4}
@@ -1070,10 +1072,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4895383689642176527, b: 2306681497444171189}
+            guid: {a: 5338707397380331830, b: 15141864933044200875}
             utf8: !<str> 4
             initialPosition: {x: 1566.72, y: -630.4}
             position: {x: 1566.72, y: -630.4}
@@ -1082,10 +1084,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4821885890433601491, b: 16250649450583383974}
+            guid: {a: 4945000793954630915, b: 8915856260102489777}
             utf8: !<str> 颗
             initialPosition: {x: 2070.08, y: -642.2399}
             position: {x: 2070.08, y: -642.2399}
@@ -1094,10 +1096,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5615150660733880610, b: 8691771535957602443}
+            guid: {a: 5601907517103264383, b: 2780034289651553949}
             utf8: !<str> 心
             initialPosition: {x: 2725.439, y: -626.2399}
             position: {x: 2725.439, y: -626.2399}
@@ -1106,12 +1108,12 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 28}
+            letterStyle: {localId: 33}
         str: !<str> "幽灵糖果夜\n轻轻左右移动头部\n开拍挑战20秒 · 4颗心"
         richStr: !<str> "幽灵糖果夜\n轻轻左右移动头部\n开拍挑战20秒 · 4颗心"
-        typeSettingParam: {localId: 31}
-        canvas: {localId: 32}
-        globalBackground: {localId: 33}
+        typeSettingParam: {localId: 36}
+        canvas: {localId: 37}
+        globalBackground: {localId: 38}
         textLocale:
           __class: TextLocale
           value: LTRLocale
@@ -1156,7 +1158,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 9}
+      - {localId: 25}
       - __class: EffectNode
         name: !<str> ""
         guid: {a: 4961780127274867515, b: 14062377614061711233}
@@ -1180,7 +1182,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 8}
+      - {localId: 24}
       - __class: Camera
         name: !<str> ""
         guid: {a: 5691783194013351573, b: 1314310402438191281}
@@ -1221,7 +1223,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 7}
+      - {localId: 23}
       - __class: DynamicComponent
         name: !<str> AudioComponent
         guid: {a: 4926594706444201385, b: 14917807667062776976}
@@ -1248,7 +1250,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 10}
+      - {localId: 26}
       - __class: DynamicComponent
         name: !<str> AudioComponent
         guid: {a: 5380747211731918180, b: 5057024346087308734}
@@ -1326,7 +1328,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 20}
+      - {localId: 17}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 5503810357069907382, b: 13377496850370346151}
@@ -1372,7 +1374,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 21}
+      - {localId: 18}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 5373593790235038468, b: 15817021175869478814}
@@ -1418,7 +1420,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 35}
+      - {localId: 20}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 5091261724349039699, b: 9264393949624724383}
@@ -1464,7 +1466,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 36}
+      - {localId: 21}
       - __class: Text
         name: !<str> ""
         guid: {a: 5214449355650173952, b: 11405882048567467430}
@@ -1487,7 +1489,7 @@ entities:
             _inner_input: !<str> ← 左右翻转手机，躲开南瓜 →
             _lineBreakType: 4
             _loopAnimationAssetID: !<str> ""
-            _maxInputWords: 50
+            _maxInputWords: 0
             _outAnimationAssetID: !<str> ""
             _tabType: 0
             _textAdaptiveCanvasEnabled: false
@@ -1504,11 +1506,11 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        activeTextStyle: {localId: 37}
+        activeTextStyle: {localId: 39}
         letters:
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4710234003553325069, b: 4574237112482751388}
+            guid: {a: 4832779824070513146, b: 11253280446846852018}
             utf8: !<str> ←
             initialPosition: {x: -3500.28, y: 14.56}
             position: {x: -3500.28, y: 14.56}
@@ -1517,10 +1519,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5594938159499415964, b: 4736935754915176380}
+            guid: {a: 5532126929701603151, b: 14534999278526283393}
             utf8: !<str> " "
             initialPosition: {x: -3150, y: 13.44}
             position: {x: -3150, y: 13.44}
@@ -1529,10 +1531,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5701886652676088476, b: 10398923082250041728}
+            guid: {a: 5041536610593001865, b: 15609832005398747320}
             utf8: !<str> 左
             initialPosition: {x: -2802.52, y: 21.83997}
             position: {x: -2802.52, y: 21.83997}
@@ -1541,10 +1543,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5572053214378668890, b: 454108202072753059}
+            guid: {a: 5576458091915316697, b: 13398178371218368684}
             utf8: !<str> 右
             initialPosition: {x: -2242.52, y: 19.04001}
             position: {x: -2242.52, y: 19.04001}
@@ -1553,10 +1555,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4846219257803569527, b: 1044860827155786687}
+            guid: {a: 5719807881714500997, b: 2937082126239211672}
             utf8: !<str> 翻
             initialPosition: {x: -1689.24, y: 7.839966}
             position: {x: -1689.24, y: 7.839966}
@@ -1565,10 +1567,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4877004608083251939, b: 9791480265805366176}
+            guid: {a: 5290710245503895386, b: 15007093513415854997}
             utf8: !<str> 转
             initialPosition: {x: -1122.24, y: 8.680023}
             position: {x: -1122.24, y: 8.680023}
@@ -1577,10 +1579,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4908371035308453426, b: 16052220684315982520}
+            guid: {a: 4616505340845437356, b: 1185679156448891319}
             utf8: !<str> 手
             initialPosition: {x: -556.36, y: 10.92001}
             position: {x: -556.36, y: 10.92001}
@@ -1589,10 +1591,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4714159295765043065, b: 15982900792745862040}
+            guid: {a: 5245580952600381421, b: 11876930164999369098}
             utf8: !<str> 机
             initialPosition: {x: 0.8397827, y: 13.44}
             position: {x: 0.8397827, y: 13.44}
@@ -1601,10 +1603,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4812561192859293560, b: 2974910023553671097}
+            guid: {a: 4943747184501885862, b: 372129383927499446}
             utf8: !<str> ，
             initialPosition: {x: 420.0001, y: -190.4}
             position: {x: 420.0001, y: -190.4}
@@ -1613,10 +1615,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5143934715621460789, b: 6570079756109555903}
+            guid: {a: 4925467714802883986, b: 6717669529529261753}
             utf8: !<str> 躲
             initialPosition: {x: 1121.68, y: 12.88}
             position: {x: 1121.68, y: 12.88}
@@ -1625,10 +1627,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5294732878686680993, b: 13754246731662544311}
+            guid: {a: 5176876945930016047, b: 1457175957930067332}
             utf8: !<str> 开
             initialPosition: {x: 1679.44, y: -6.440002}
             position: {x: 1679.44, y: -6.440002}
@@ -1637,10 +1639,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5231250853665967147, b: 448133866109430145}
+            guid: {a: 5039169182707721412, b: 10568558451711578772}
             utf8: !<str> 南
             initialPosition: {x: 2239.72, y: 13.44}
             position: {x: 2239.72, y: 13.44}
@@ -1649,10 +1651,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5094631784413177506, b: 8164420208831789966}
+            guid: {a: 5222730167526664682, b: 15419463365632351392}
             utf8: !<str> 瓜
             initialPosition: {x: 2801.12, y: 9.23999}
             position: {x: 2801.12, y: 9.23999}
@@ -1661,10 +1663,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 5451946153576427158, b: 7629917878749733295}
+            guid: {a: 4732438702558928870, b: 5237819247516895397}
             utf8: !<str> " "
             initialPosition: {x: 3150, y: 13.44}
             position: {x: 3150, y: 13.44}
@@ -1673,10 +1675,10 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4973319831033086387, b: 523254414666552207}
+            guid: {a: 4820403781461003825, b: 18325024739314096024}
             utf8: !<str> →
             initialPosition: {x: 3499.72, y: 14.56}
             position: {x: 3499.72, y: 14.56}
@@ -1685,12 +1687,12 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 37}
+            letterStyle: {localId: 39}
         str: !<str> ← 左右翻转手机，躲开南瓜 →
         richStr: !<str> ← 左右翻转手机，躲开南瓜 →
-        typeSettingParam: {localId: 40}
-        canvas: {localId: 41}
-        globalBackground: {localId: 42}
+        typeSettingParam: {localId: 42}
+        canvas: {localId: 43}
+        globalBackground: {localId: 44}
         textLocale:
           __class: TextLocale
           value: LTRLocale
@@ -1735,7 +1737,7 @@ entities:
     scene: {localId: 1}
     selfvisible: false
     components:
-      - {localId: 34}
+      - {localId: 22}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 4684675666191295027, b: 12928733390039057075}
@@ -1781,7 +1783,7 @@ entities:
     scene: {localId: 1}
     selfvisible: false
     components:
-      - {localId: 43}
+      - {localId: 10}
       - __class: Text
         name: !<str> ""
         guid: {a: 4810702881695156718, b: 10709517465823261585}
@@ -1804,7 +1806,7 @@ entities:
             _inner_input: !<str> ┃
             _lineBreakType: 2
             _loopAnimationAssetID: !<str> ""
-            _maxInputWords: 50
+            _maxInputWords: 0
             _outAnimationAssetID: !<str> ""
             _tabType: 0
             _textAdaptiveCanvasEnabled: false
@@ -1821,7 +1823,7 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        activeTextStyle: {localId: 44}
+        activeTextStyle: {localId: 45}
         letters:
           - __class: Letter
             name: !<str> ""
@@ -1834,12 +1836,12 @@ entities:
             anchor: {x: 0, y: 0}
             extraMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]}
             instanceColor: {r: 1, g: 1, b: 1, a: 1}
-            letterStyle: {localId: 44}
+            letterStyle: {localId: 45}
         str: !<str> ┃
         richStr: !<str> ┃
-        typeSettingParam: {localId: 47}
-        canvas: {localId: 48}
-        globalBackground: {localId: 49}
+        typeSettingParam: {localId: 48}
+        canvas: {localId: 49}
+        globalBackground: {localId: 50}
         textLocale:
           __class: TextLocale
           value: LTRLocale
@@ -1884,7 +1886,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 50}
+      - {localId: 19}
       - __class: ImageRenderer
         name: !<str> ""
         guid: {a: 5706823830310475899, b: 13564183795658107305}
@@ -2004,149 +2006,33 @@ parent: {localId: 5}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &7
+--- !ScreenTransform &7
 name: !<str> ""
-guid: {a: 5231210856862191215, b: 4813369234445929128}
+guid: {a: 5024982542478787490, b: 4534419457784941998}
 enabled: true
-localPosition: {x: 0, y: 0, z: -40}
+localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 8}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &8
-name: !<str> ""
-guid: {a: 5568594147918116848, b: 14486651005006518696}
-enabled: true
-localPosition: {x: 0, y: 0, z: 40}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 9}
-children:
-  - {localId: 7}
-  - {localId: 10}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &9
-name: !<str> ""
-guid: {a: 5608140789233474219, b: 10084845710114850444}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-children:
-  - {localId: 8}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &10
-name: !<str> ""
-guid: {a: 4804105571298571948, b: 2405921823167775421}
-enabled: true
-localPosition: {x: 0, y: 0, z: -40}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 8}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !ScreenTransform &11
-name: !<str> ""
-guid: {a: 5116371883674872822, b: 10704187168737190326}
-enabled: true
-localPosition: {x: 0, y: -9.375, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
-mobility:
-  __class: Mobility
-  value: Dynamic
-anchoredPosition: {x: 0, y: -300}
-sizeDelta: {x: 170, y: 170}
-pivot: {x: 0.5, y: 0.5}
-anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-pixelsPerUnit: 32
-enablePivotMatrix: false
---- !Transform &12
-name: !<str> ""
-guid: {a: 4683679125346165012, b: 15604108587032338577}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-children:
-  - {localId: 43}
-  - {localId: 13}
-  - {localId: 14}
-  - {localId: 11}
-  - {localId: 15}
-  - {localId: 16}
-  - {localId: 18}
-  - {localId: 20}
-  - {localId: 21}
-  - {localId: 50}
-  - {localId: 35}
-  - {localId: 34}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &13
-name: !<str> ""
-guid: {a: 4874333163551005203, b: 2267719725407061380}
-enabled: true
-localPosition: {x: 0, y: 0, z: 40}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !ScreenTransform &14
-name: !<str> ""
-guid: {a: 4624735252081837111, b: 6324091363861078707}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
 mobility:
   __class: Mobility
   value: Dynamic
 anchoredPosition: {x: 0, y: 0}
-sizeDelta: {x: 720, y: 1280}
+sizeDelta: {x: 560, y: 85}
 pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
 pixelsPerUnit: 32
-enablePivotMatrix: false
---- !ScreenTransform &15
-name: !<str> ""
-guid: {a: 5458033524458404039, b: 9990276175253680032}
-enabled: true
-localPosition: {x: 0, y: 25, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
-mobility:
-  __class: Mobility
-  value: Dynamic
-anchoredPosition: {x: 0, y: 800}
-sizeDelta: {x: 90, y: 90}
-pivot: {x: 0.5, y: 0.5}
-anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-pixelsPerUnit: 32
-enablePivotMatrix: false
---- !ScreenTransform &16
+enablePivotMatrix: true
+--- !ScreenTransform &8
 name: !<str> ""
 guid: {a: 5586876607947361828, b: 15926778958318704036}
 enabled: true
 localPosition: {x: -1.25, y: 14.53125, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
+parent: {localId: 9}
 children:
-  - {localId: 17}
+  - {localId: 7}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -2156,33 +2042,118 @@ pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
 pixelsPerUnit: 32
 enablePivotMatrix: false
---- !ScreenTransform &17
+--- !Transform &9
 name: !<str> ""
-guid: {a: 5024982542478787490, b: 4534419457784941998}
+guid: {a: 4683679125346165012, b: 15604108587032338577}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 16}
+children:
+  - {localId: 10}
+  - {localId: 11}
+  - {localId: 12}
+  - {localId: 13}
+  - {localId: 14}
+  - {localId: 8}
+  - {localId: 15}
+  - {localId: 17}
+  - {localId: 18}
+  - {localId: 19}
+  - {localId: 20}
+  - {localId: 22}
 mobility:
   __class: Mobility
   value: Dynamic
-anchoredPosition: {x: 0, y: 0}
-sizeDelta: {x: 560, y: 85}
+--- !ScreenTransform &10
+name: !<str> ""
+guid: {a: 5005901318040189145, b: 910513637585772979}
+enabled: true
+localPosition: {x: 4.6875, y: 19.375, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 150, y: 620}
+sizeDelta: {x: 24, y: 40}
 pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
 pixelsPerUnit: 32
 enablePivotMatrix: true
---- !ScreenTransform &18
+--- !Transform &11
+name: !<str> ""
+guid: {a: 4874333163551005203, b: 2267719725407061380}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &12
+name: !<str> ""
+guid: {a: 4624735252081837111, b: 6324091363861078707}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &13
+name: !<str> ""
+guid: {a: 5116371883674872822, b: 10704187168737190326}
+enabled: true
+localPosition: {x: 0, y: -9.375, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: -300}
+sizeDelta: {x: 170, y: 170}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &14
+name: !<str> ""
+guid: {a: 5458033524458404039, b: 9990276175253680032}
+enabled: true
+localPosition: {x: 0, y: 25, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 800}
+sizeDelta: {x: 90, y: 90}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &15
 name: !<str> ""
 guid: {a: 4780218268360344057, b: 3127684643053041072}
 enabled: true
 localPosition: {x: -1.25, y: 5.46875, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
+parent: {localId: 9}
 children:
-  - {localId: 19}
+  - {localId: 16}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -2192,14 +2163,14 @@ pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
 pixelsPerUnit: 32
 enablePivotMatrix: false
---- !ScreenTransform &19
+--- !ScreenTransform &16
 name: !<str> ""
 guid: {a: 5576960959409503044, b: 13682625335572348808}
 enabled: true
 localPosition: {x: 0, y: 0.46875, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 18}
+parent: {localId: 15}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -2209,14 +2180,14 @@ pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
 pixelsPerUnit: 32
 enablePivotMatrix: true
---- !ScreenTransform &20
+--- !ScreenTransform &17
 name: !<str> ""
 guid: {a: 4713814004507517866, b: 3441134390586623363}
 enabled: true
 localPosition: {x: -7.8125, y: 5.625, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
+parent: {localId: 9}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -2226,14 +2197,14 @@ pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
 pixelsPerUnit: 32
 enablePivotMatrix: false
---- !ScreenTransform &21
+--- !ScreenTransform &18
 name: !<str> ""
 guid: {a: 5707689394379571719, b: 18358464153920528557}
 enabled: true
 localPosition: {x: 0, y: 25, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
+parent: {localId: 9}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -2243,7 +2214,125 @@ pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
 pixelsPerUnit: 32
 enablePivotMatrix: false
---- !LetterStyle &22
+--- !ScreenTransform &19
+name: !<str> ""
+guid: {a: 4618343817581161778, b: 18286060386536106147}
+enabled: true
+localPosition: {x: 4.6875, y: 19.375, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 150, y: 620}
+sizeDelta: {x: 3, y: 40}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &20
+name: !<str> ""
+guid: {a: 4790460140310463800, b: 7599343424139819142}
+enabled: true
+localPosition: {x: 0, y: -14.93614, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+children:
+  - {localId: 21}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: -477.9566}
+sizeDelta: {x: 560, y: 140}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !ScreenTransform &21
+name: !<str> ""
+guid: {a: 5251214179233644852, b: 7781904260199515265}
+enabled: true
+localPosition: {x: 0, y: 0.2805715, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 20}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 8.978287}
+sizeDelta: {x: 560, y: 62.95657}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: true
+--- !ScreenTransform &22
+name: !<str> ""
+guid: {a: 5635227593290644844, b: 96011153365146}
+enabled: true
+localPosition: {x: -1.25, y: -2.5, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: -40, y: -80}
+sizeDelta: {x: 410, y: 410}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+enablePivotMatrix: false
+--- !Transform &23
+name: !<str> ""
+guid: {a: 5231210856862191215, b: 4813369234445929128}
+enabled: true
+localPosition: {x: 0, y: 0, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 24}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &24
+name: !<str> ""
+guid: {a: 5568594147918116848, b: 14486651005006518696}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 25}
+children:
+  - {localId: 23}
+  - {localId: 26}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &25
+name: !<str> ""
+guid: {a: 5608140789233474219, b: 10084845710114850444}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 24}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &26
+name: !<str> ""
+guid: {a: 4804105571298571948, b: 2405921823167775421}
+enabled: true
+localPosition: {x: 0, y: 0, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 24}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !LetterStyle &27
 name: !<str> ""
 guid: {a: 4763388043442358061, b: 2514679333389868441}
 version: 101
@@ -2261,16 +2350,16 @@ fontDecoration:
   value: NONE
 decorationWidth: 0.03999999910593033
 decorationOffset: 0.1500000059604645
-fill: {localId: 23}
+fill: {localId: 28}
 effectStyleId: !<str> ""
 effectStylePath: !<str> ""
 effectStyleParams: !<str> ""
 innerShadows:
-  - {localId: 24}
+  - {localId: 29}
 letterBgColorRGBA: {r: 0, g: 0, b: 0, a: 1}
 letterBgAlpha: 0
 selected: false
---- !LetterStyleLayer &23
+--- !LetterStyleLayer &28
 name: !<str> ""
 guid: {a: 5568091485468645330, b: 376019708872050868}
 serializedProperty:
@@ -2321,7 +2410,7 @@ shadowDistance: 0
 shadowAngle: -45
 shadowFeather: -1
 shadowDiffuse: -1
---- !LetterStyleLayer &24
+--- !LetterStyleLayer &29
 name: !<str> ""
 guid: {a: 4737754262320432368, b: 5115949680884007086}
 serializedProperty:
@@ -2372,7 +2461,7 @@ shadowDistance: 0.05000000074505806
 shadowAngle: -30
 shadowFeather: 0
 shadowDiffuse: -1
---- !TextTypeSettingParam &25
+--- !TextTypeSettingParam &30
 name: !<str> ""
 guid: {a: 5260826027306096196, b: 7416439080042903729}
 textAdaptiveCanvasEnabled: true
@@ -2384,7 +2473,7 @@ lineSpacing: 0
 paragraphSpacing: 0
 paragraphIndent: 0
 isFirstParaIndentEnabled: true
-wordWrapWidth: inf
+wordWrapWidth: 15000
 wordWrapHeight: 15000
 canvasWHFixed: {x: 11200, y: 1700}
 typeSettingKind:
@@ -2425,7 +2514,7 @@ layoutMode:
   __class: LayoutMode
   value: FixedSize
 autoLayoutMaxHeight: -1
---- !TextCanvas &26
+--- !TextCanvas &31
 name: !<str> ""
 guid: {a: 5473894464755699407, b: 13759770025718823051}
 textRect: {x: -5600, y: -270.9, w: 11200, h: 541.8}
@@ -2446,7 +2535,7 @@ canvasStyle:
   __class: CanvasStyle
   value: BoundingBox
 pixelTextRect: {x: -5600, y: -270.9, w: 11200, h: 541.8}
---- !TextBackground &27
+--- !TextBackground &32
 name: !<str> ""
 guid: {a: 4744106812898229818, b: 16301862771638072984}
 enabled: true
@@ -2487,7 +2576,7 @@ gradientAngle: 90
 gradientStyle:
   __class: GradientStyle
   value: Linear
---- !LetterStyle &28
+--- !LetterStyle &33
 name: !<str> ""
 guid: {a: 5651916895741992964, b: 16276989347192534694}
 version: 101
@@ -2505,16 +2594,16 @@ fontDecoration:
   value: NONE
 decorationWidth: 0.03999999910593033
 decorationOffset: 0.1500000059604645
-fill: {localId: 29}
+fill: {localId: 34}
 effectStyleId: !<str> ""
 effectStylePath: !<str> ""
 effectStyleParams: !<str> ""
 innerShadows:
-  - {localId: 30}
+  - {localId: 35}
 letterBgColorRGBA: {r: 0, g: 0, b: 0, a: 1}
 letterBgAlpha: 0
 selected: false
---- !LetterStyleLayer &29
+--- !LetterStyleLayer &34
 name: !<str> ""
 guid: {a: 5413390944209872722, b: 5190799756019703737}
 serializedProperty:
@@ -2565,7 +2654,7 @@ shadowDistance: 0
 shadowAngle: -45
 shadowFeather: -1
 shadowDiffuse: -1
---- !LetterStyleLayer &30
+--- !LetterStyleLayer &35
 name: !<str> ""
 guid: {a: 4985882276484083302, b: 14150453105342329998}
 serializedProperty:
@@ -2616,7 +2705,7 @@ shadowDistance: 0.05000000074505806
 shadowAngle: -30
 shadowFeather: 0
 shadowDiffuse: -1
---- !TextTypeSettingParam &31
+--- !TextTypeSettingParam &36
 name: !<str> ""
 guid: {a: 4847389313126144186, b: 17702702278766141361}
 textAdaptiveCanvasEnabled: true
@@ -2628,7 +2717,7 @@ lineSpacing: 0
 paragraphSpacing: 0
 paragraphIndent: 0
 isFirstParaIndentEnabled: true
-wordWrapWidth: inf
+wordWrapWidth: 15000
 wordWrapHeight: 15000
 canvasWHFixed: {x: 10200, y: 2900}
 typeSettingKind:
@@ -2669,7 +2758,7 @@ layoutMode:
   __class: LayoutMode
   value: FixedSize
 autoLayoutMaxHeight: -1
---- !TextCanvas &32
+--- !TextCanvas &37
 name: !<str> ""
 guid: {a: 5638211772948607244, b: 4564021773358202011}
 textRect: {x: -5100, y: -937.6, w: 10200, h: 1875.2}
@@ -2690,7 +2779,7 @@ canvasStyle:
   __class: CanvasStyle
   value: BoundingBox
 pixelTextRect: {x: -5100, y: -937.6, w: 10200, h: 1875.2}
---- !TextBackground &33
+--- !TextBackground &38
 name: !<str> ""
 guid: {a: 5239964322364726582, b: 15696331602208181421}
 enabled: true
@@ -2731,60 +2820,7 @@ gradientAngle: 90
 gradientStyle:
   __class: GradientStyle
   value: Linear
---- !ScreenTransform &34
-name: !<str> ""
-guid: {a: 5635227593290644844, b: 96011153365146}
-enabled: true
-localPosition: {x: -1.25, y: -2.5, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
-mobility:
-  __class: Mobility
-  value: Dynamic
-anchoredPosition: {x: -40, y: -80}
-sizeDelta: {x: 410, y: 410}
-pivot: {x: 0.5, y: 0.5}
-anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-pixelsPerUnit: 32
-enablePivotMatrix: false
---- !ScreenTransform &35
-name: !<str> ""
-guid: {a: 4790460140310463800, b: 7599343424139819142}
-enabled: true
-localPosition: {x: 0, y: -14.93614, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
-children:
-  - {localId: 36}
-mobility:
-  __class: Mobility
-  value: Dynamic
-anchoredPosition: {x: -3.996803e-14, y: -477.9566}
-sizeDelta: {x: 560, y: 140}
-pivot: {x: 0.5, y: 0.5}
-anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-pixelsPerUnit: 32
-enablePivotMatrix: false
---- !ScreenTransform &36
-name: !<str> ""
-guid: {a: 5251214179233644852, b: 7781904260199515265}
-enabled: true
-localPosition: {x: 0, y: 0.2805715, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 35}
-mobility:
-  __class: Mobility
-  value: Dynamic
-anchoredPosition: {x: 0, y: 8.978287}
-sizeDelta: {x: 560, y: 62.95657}
-pivot: {x: 0.5, y: 0.5}
-anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-pixelsPerUnit: 32
-enablePivotMatrix: true
---- !LetterStyle &37
+--- !LetterStyle &39
 name: !<str> ""
 guid: {a: 5408004067148827956, b: 299220450524403385}
 version: 101
@@ -2802,16 +2838,16 @@ fontDecoration:
   value: NONE
 decorationWidth: 0.03999999910593033
 decorationOffset: 0.1500000059604645
-fill: {localId: 38}
+fill: {localId: 40}
 effectStyleId: !<str> ""
 effectStylePath: !<str> ""
 effectStyleParams: !<str> ""
 innerShadows:
-  - {localId: 39}
+  - {localId: 41}
 letterBgColorRGBA: {r: 0, g: 0, b: 0, a: 1}
 letterBgAlpha: 0
 selected: false
---- !LetterStyleLayer &38
+--- !LetterStyleLayer &40
 name: !<str> ""
 guid: {a: 5726187855426970762, b: 17882569452181424261}
 serializedProperty:
@@ -2862,7 +2898,7 @@ shadowDistance: 0
 shadowAngle: -45
 shadowFeather: -1
 shadowDiffuse: -1
---- !LetterStyleLayer &39
+--- !LetterStyleLayer &41
 name: !<str> ""
 guid: {a: 5089231829007495740, b: 6305531813780381610}
 serializedProperty:
@@ -2913,7 +2949,7 @@ shadowDistance: 0.05000000074505806
 shadowAngle: -30
 shadowFeather: 0
 shadowDiffuse: -1
---- !TextTypeSettingParam &40
+--- !TextTypeSettingParam &42
 name: !<str> ""
 guid: {a: 5669207186523757831, b: 8772864280044579459}
 textAdaptiveCanvasEnabled: true
@@ -2925,7 +2961,7 @@ lineSpacing: 0
 paragraphSpacing: 0
 paragraphIndent: 0
 isFirstParaIndentEnabled: true
-wordWrapWidth: inf
+wordWrapWidth: 15000
 wordWrapHeight: 15000
 canvasWHFixed: {x: 11200, y: 1259.131}
 typeSettingKind:
@@ -2966,7 +3002,7 @@ layoutMode:
   __class: LayoutMode
   value: FixedSize
 autoLayoutMaxHeight: -1
---- !TextCanvas &41
+--- !TextCanvas &43
 name: !<str> ""
 guid: {a: 4964684903661239660, b: 1534357177208935335}
 textRect: {x: -5600, y: -266.56, w: 11200, h: 533.12}
@@ -2987,7 +3023,7 @@ canvasStyle:
   __class: CanvasStyle
   value: BoundingBox
 pixelTextRect: {x: -5600, y: -266.56, w: 11200, h: 533.12}
---- !TextBackground &42
+--- !TextBackground &44
 name: !<str> ""
 guid: {a: 4967505531414011120, b: 3903986803222630064}
 enabled: true
@@ -3028,24 +3064,7 @@ gradientAngle: 90
 gradientStyle:
   __class: GradientStyle
   value: Linear
---- !ScreenTransform &43
-name: !<str> ""
-guid: {a: 5005901318040189145, b: 910513637585772979}
-enabled: true
-localPosition: {x: 4.6875, y: 19.375, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
-mobility:
-  __class: Mobility
-  value: Dynamic
-anchoredPosition: {x: 150, y: 620}
-sizeDelta: {x: 24, y: 40}
-pivot: {x: 0.5, y: 0.5}
-anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-pixelsPerUnit: 32
-enablePivotMatrix: true
---- !LetterStyle &44
+--- !LetterStyle &45
 name: !<str> ""
 guid: {a: 5516569764956998506, b: 962694124476883587}
 version: 101
@@ -3063,16 +3082,16 @@ fontDecoration:
   value: NONE
 decorationWidth: 0.03999999910593033
 decorationOffset: 0.1500000059604645
-fill: {localId: 45}
+fill: {localId: 46}
 effectStyleId: !<str> ""
 effectStylePath: !<str> ""
 effectStyleParams: !<str> ""
 innerShadows:
-  - {localId: 46}
+  - {localId: 47}
 letterBgColorRGBA: {r: 0, g: 0, b: 0, a: 1}
 letterBgAlpha: 0
 selected: false
---- !LetterStyleLayer &45
+--- !LetterStyleLayer &46
 name: !<str> ""
 guid: {a: 5315164591366263931, b: 62222860222284674}
 serializedProperty:
@@ -3123,7 +3142,7 @@ shadowDistance: 0
 shadowAngle: -45
 shadowFeather: -1
 shadowDiffuse: -1
---- !LetterStyleLayer &46
+--- !LetterStyleLayer &47
 name: !<str> ""
 guid: {a: 5320760000814792769, b: 11700452390086748062}
 serializedProperty:
@@ -3174,7 +3193,7 @@ shadowDistance: 0.05000000074505806
 shadowAngle: -30
 shadowFeather: 0
 shadowDiffuse: -1
---- !TextTypeSettingParam &47
+--- !TextTypeSettingParam &48
 name: !<str> ""
 guid: {a: 5233505520925191347, b: 13124060433721019829}
 textAdaptiveCanvasEnabled: false
@@ -3186,7 +3205,7 @@ lineSpacing: 0
 paragraphSpacing: 0
 paragraphIndent: 0
 isFirstParaIndentEnabled: true
-wordWrapWidth: inf
+wordWrapWidth: 15000
 wordWrapHeight: 15000
 canvasWHFixed: {x: 480, y: 800}
 typeSettingKind:
@@ -3227,7 +3246,7 @@ layoutMode:
   __class: LayoutMode
   value: FixedSize
 autoLayoutMaxHeight: -1
---- !TextCanvas &48
+--- !TextCanvas &49
 name: !<str> ""
 guid: {a: 4669969674550084313, b: 6717536599353133711}
 textRect: {x: -240, y: -228, w: 480, h: 456}
@@ -3248,7 +3267,7 @@ canvasStyle:
   __class: CanvasStyle
   value: BoundingBox
 pixelTextRect: {x: -240, y: -228, w: 480, h: 456}
---- !TextBackground &49
+--- !TextBackground &50
 name: !<str> ""
 guid: {a: 5702208105799760101, b: 15969249938068342705}
 enabled: true
@@ -3289,20 +3308,3 @@ gradientAngle: 90
 gradientStyle:
   __class: GradientStyle
   value: Linear
---- !ScreenTransform &50
-name: !<str> ""
-guid: {a: 4618343817581161778, b: 18286060386536106147}
-enabled: true
-localPosition: {x: 4.6875, y: 19.375, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 12}
-mobility:
-  __class: Mobility
-  value: Dynamic
-anchoredPosition: {x: 150, y: 620}
-sizeDelta: {x: 3, y: 40}
-pivot: {x: 0.5, y: 0.5}
-anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-pixelsPerUnit: 32
-enablePivotMatrix: false

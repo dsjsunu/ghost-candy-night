@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "e54a28fb-cd3f-525d-b304-107aa8d76123",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "白羽翼天使南瓜",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\26428\\AppData\\Local\\Temp\\dyeh-mcp-aigc\\image\\1793264613771_9nlodygstqj\\白羽翼天使南瓜.png",
+    "references": []
+  }
+]

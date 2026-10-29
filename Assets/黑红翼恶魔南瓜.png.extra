@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "8baafa4f-5e74-b870-c935-8405cb21d69f",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "黑红翼恶魔南瓜",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\26428\\AppData\\Local\\Temp\\dyeh-mcp-aigc\\image\\1793264609296_sxq2q4qj8wm\\黑红翼恶魔南瓜.png",
+    "references": []
+  }
+]
